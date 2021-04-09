@@ -2,32 +2,18 @@ import React from 'react'
 
 import './cv.css'
 
-import { map } from 'ramda'
-
 import sections from './sections'
 
-import SectionItem from './SectionItem'
+import Section from './Section'
 
-let makeItems = map(item => <SectionItem item={item} />)
+let makeSection = (section, i) => 
+  <Section key={section.title} section={section} i={i} />
 
-let Sections = () => {
-  return sections.map((section, i) => {
-    let items = makeItems(section.items)
-    return (
-      <div className="cv-section">
-      <h3>
-        <span className="number">{i+1}</span>
-        {section.title}
-      </h3>
-      {items}
-      </div>
-    )
-  })
-}
+let cvSections = sections.map(makeSection)
 
-let Cv = () =>  (
+let Cv = () => (
   <div className="cv page hide-menu-active">
-    <Sections />
+    {cvSections}
   </div>
 )
 
