@@ -1,0 +1,15 @@
+.github circle {
+  fill: #fff;
+  transition: all .3s ease-in-out;
+}
+.github:hover circle {
+  fill: #111;
+}
+
+.github path {
+  fill: #111;
+  transition: all .4s ease-in-out;
+}
+.github:hover path {
+  fill: #fff;
+}
