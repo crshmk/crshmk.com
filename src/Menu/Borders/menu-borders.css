@@ -1,0 +1,41 @@
+.after.nav-top:after {
+  width: 0px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  transition: .3s all ease;
+}
+.before.nav-left-top:before {
+  height: 0px;
+  top: -5px;
+  left: 5px;
+  transition: .3s all ease;
+}
+.before.nav-left-bottom:before {
+  height: 0px;
+  bottom: -5px;
+  left: 5px;
+  transition: .3s all ease;
+
+}
+.after.nav-bottom:after {
+  width: 0px;
+  height: 1px;
+  bottom: 0px;
+  left: 0px;
+  transition: .3s all ease;
+}
+
+.main-menu.showing .after.nav-top:after {
+  width: 45px;
+}
+.main-menu.showing .before.nav-left-top:before {
+  height: 35px;
+}
+.main-menu.showing .before.nav-left-bottom:before {
+  height: 60px;
+}
+.main-menu.showing .after.nav-bottom:after {
+  width: 30px;
+}
+

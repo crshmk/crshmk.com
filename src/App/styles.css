@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'book';
+  src: url(../../assets/book.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: 'book', serif;
+  letter-spacing: .1em;
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+a.active-menu-item  {
+  opacity: .5;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.page {
+  margin-top: 70px;
+  padding:50px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.before:before, .after:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  background-color: #111;
+}

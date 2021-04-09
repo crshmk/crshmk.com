@@ -1,0 +1,23 @@
+.menu-btn {
+  position: fixed;
+  top: 40vh;
+  right: 10px;
+  transform: rotateZ(90deg);
+  z-index: 2;
+  background-color: #aaa;
+  color: #fff;
+  padding: 5px 10px;
+  transition: all .3s ease;
+}
+.menu-active .menu-btn {
+  opacity: 0;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-btn {
+    transform: none;
+    right: 5%;
+    top: 11px;
+  }
+}

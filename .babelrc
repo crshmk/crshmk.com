@@ -4,7 +4,9 @@
     ["module-resolver", {
       "root": ["./"],
       "alias": {
-        "useMenu": "./src/App/useMenu"
+        "App": "./src/App",
+        "useMenu": "./src/Menu/useMenu",
+        "src": "./src"
       }
     }]
   ]
