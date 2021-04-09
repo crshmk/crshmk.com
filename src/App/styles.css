@@ -54,3 +54,11 @@ li {
   width: 1px;
   background-color: #111;
 }
+
+.hide-menu-active {
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+}
+.menu-active .hide-menu-active {
+  opacity: 0;
+}

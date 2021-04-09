@@ -8,7 +8,7 @@ let linkToThisRepo = 'https://github.com/crshmk/crshmk.com'
 
 let Home = () => {
   return (
-    <div className="home">
+    <div className="home hide-menu-active">
       <h1>Chris Hammock</h1>
       <h3>Web Developer</h3>
       <GithubButton url={linkToThisRepo} />
