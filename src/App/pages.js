@@ -12,6 +12,7 @@ import Contact from '../Contact'
 import Cv from '../Cv'
 import Home from '../Home'
 import Life from '../Life'
+import Skills from '../Skills'
 
 import { concat, map, mergeDeepRight } from 'ramda'
 
@@ -22,20 +23,24 @@ let pages = [
     Component: Home
   },
   {
-    label: 'code',
-    Component: Code
-  },
-  {
-    label: 'contact',
-    Component: Contact
-  },
-  {
     label: 'cv',
     Component: Cv
   },
   {
+    label: 'skills',
+    Component: Skills
+  },
+  {
+    label: 'code',
+    Component: Code
+  },
+  {
     label: 'life',
     Component: Life
+  },
+  {
+    label: 'contact',
+    Component: Contact
   }
 ]
 

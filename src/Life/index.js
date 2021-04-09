@@ -6,9 +6,10 @@ import blurbs from './blurbs'
 
 import { map } from 'ramda'
 
-let makeBlurbs = map(blurb => <p>{blurb}</p>)
+let makeBlurb = (blurb, i) => 
+  <p key={i}>{blurb}</p>
 
-let paragraphs = makeBlurbs(blurbs)
+let paragraphs = blurbs.map(makeBlurb)
 
 let Life = () => (
   <div className="life hide-menu-active">
