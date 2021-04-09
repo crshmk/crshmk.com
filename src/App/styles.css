@@ -3,6 +3,11 @@
   src: url(../../assets/book.otf);
 }
 
+@font-face {
+  font-family: 'skinny';
+  src: url(../../assets/skinny.otf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -31,7 +36,9 @@ h2 {
 }
 
 p {
+  margin: 10px 0;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .page {
