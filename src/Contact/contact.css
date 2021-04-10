@@ -1,0 +1,11 @@
+.contact {
+  padding: 100px;
+}
+
+.contact.active {
+  pointer-events: none;
+}
+
+.contact h1 {
+  text-align: center;
+}

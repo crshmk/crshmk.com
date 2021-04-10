@@ -1,0 +1,48 @@
+.copy-to-clipboard {
+  position: relative;
+  cursor: pointer;
+}
+
+.copy-to-clipboard.active {
+  pointer-events: none;
+}
+
+.copy-icon {
+  background: #fafafa;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  height: 38px;
+  width: 41px;
+  display: inline-block;
+  transition: all .15s ease;
+}
+
+.copy-to-clipboard.active .copy-icon {
+  border: 2px solid #111;
+  background: #111;
+  pointer-events: none;
+}
+
+.copy-to-clipboard svg {
+  fill: black;
+  transition: fill .4s ease;
+}
+
+.copy-to-clipboard.active svg {
+  fill: #fafafa;
+}
+
+.copy-message {
+  position: absolute;
+  top: 48px;
+  left: -19px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+.copy-to-clipboard.active .copy-message {
+  opacity: 1;
+}

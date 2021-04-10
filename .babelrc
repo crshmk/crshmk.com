@@ -5,8 +5,9 @@
       "root": ["./"],
       "alias": {
         "App": "./src/App",
-        "useMenu": "./src/Menu/useMenu",
-        "src": "./src"
+        "Icons": "./src/Icons",
+        "src": "./src",
+        "useMenu": "./src/Menu/useMenu"
       }
     }]
   ]
