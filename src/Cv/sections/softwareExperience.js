@@ -24,7 +24,7 @@ let lusty = {
 let freelance = {
   title: ['Freelance Web Developer'],
   subhead: ['', 'Nha Trang, Vietnam'],
-  dates: 'Jun 2016 - Mar 2018',
+  dates: 'Jan 2014 - Oct 2018',
   tools: 'Vue or jQuery, php, Apache, Ubuntu',
   bullets: [
     'Ran a small web development business as owner-operator'

@@ -15,12 +15,34 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 320px;
   font-family: 'book', serif;
   letter-spacing: .1em;
   background: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+#app > div {
+  padding: 0 70px 0 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+  #app > div {
+    padding: 0 70px 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #app > div {
+    padding: 0 20px;
+  }
+  .bullet {
+    max-width: 100%;
+  }
 }
 
 a {
@@ -43,7 +65,6 @@ p {
 
 .page {
   margin-top: 70px;
-  padding: 50px;
 }
 
 ul, li {

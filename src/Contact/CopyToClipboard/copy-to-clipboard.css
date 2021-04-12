@@ -8,12 +8,12 @@
 }
 
 .copy-icon {
+  display: inline-block;
+  height: 38px;
+  width: 41px;
   background: #fafafa;
   border: 2px solid transparent;
   border-radius: 50%;
-  height: 38px;
-  width: 41px;
-  display: inline-block;
   transition: all .15s ease;
 }
 

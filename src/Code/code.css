@@ -53,9 +53,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .page {
-    padding: 20px;
-  }
   .code-tab-page li, .code-tab-page p {
     padding-left: 0px;
   }
