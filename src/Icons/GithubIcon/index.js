@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './github-button.css'
+import './github-icon.css'
 
-let GithubButton = ({ url }) => {
+let GithubIcon = ({ url }) => {
   url = url || 'https://github.com/crshmk'
 
   return (
@@ -15,4 +15,4 @@ let GithubButton = ({ url }) => {
   )
 }
 
-export default GithubButton
+export default GithubIcon

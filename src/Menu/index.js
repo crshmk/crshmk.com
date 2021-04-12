@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import './menu.css'
 
@@ -17,13 +17,13 @@ let Menu = () => {
   let { hideMenu } = useMenu()
   let className = useClass()
   return (
-    <Fragment>
+    <>
     <Button />
     <div className={className} onMouseLeave={hideMenu}>
       <Borders />
       <Links />
     </div>
-    </Fragment>
+    </>
   )
 }
 

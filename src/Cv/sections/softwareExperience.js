@@ -1,5 +1,5 @@
 let apple = {
-  title: ['Software Engineer', 'Apple'],
+  title: ['Software Engineer', 'Apple (on site contractor)'],
   subhead: ['', 'Austin, Texas'],
   dates: 'Oct 2018 - Feb 2021',
   tools: 'React, Express, graphQL',

@@ -1,0 +1,12 @@
+
+.languages ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.language-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  margin-bottom: 5px;
+}

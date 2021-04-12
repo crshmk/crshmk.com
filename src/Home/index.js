@@ -2,7 +2,7 @@ import React from 'react'
 
 import './home.css'
 
-import GithubButton from './GithubButton'
+import GithubIcon from 'src/Icons/GithubIcon'
 
 let linkToThisRepo = 'https://github.com/crshmk/crshmk.com'
 
@@ -11,7 +11,7 @@ let Home = () => {
     <div className="home hide-menu-active">
       <h1>Chris Hammock</h1>
       <h3>Web Developer</h3>
-      <GithubButton url={linkToThisRepo} />
+      <GithubIcon url={linkToThisRepo} />
     </div>
   )
 }

@@ -1,5 +1,18 @@
 import React from 'react'
 
-let Code = () => <p>code</p>
+import './code.css'
+
+import Pages from './Pages'
+import TabMenu from './TabMenu'
+import { TabMenuProvider } from './useTabMenu'
+
+let Code = () => (
+  <TabMenuProvider>
+    <div className="code page hide-menu-active">
+      <TabMenu />
+      <Pages />
+    </div>
+  </TabMenuProvider>
+)
 
 export default Code

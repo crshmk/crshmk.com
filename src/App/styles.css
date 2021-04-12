@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  padding:0;
+  padding: 0;
   font-family: 'book', serif;
   letter-spacing: .1em;
   background: #fafafa;
@@ -32,7 +32,7 @@ a.active-menu-item  {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 p {
@@ -43,7 +43,7 @@ p {
 
 .page {
   margin-top: 70px;
-  padding:50px;
+  padding: 50px;
 }
 
 ul, li {
@@ -53,6 +53,8 @@ ul, li {
 
 li {
   list-style-type: none;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .before:before, .after:after {

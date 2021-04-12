@@ -1,0 +1,86 @@
+.code {
+  position: relative;
+  padding-top: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.code a {
+  color: #08c;
+  margin-right: 10px;
+}
+
+.code p {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.code-content {
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.code-tab-page {
+  position: absolute;
+  width: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+}
+.code-tab-page.active {
+  max-height: none;
+  opacity: 1;
+  transition: all .4s ease .1s;
+  padding-bottom: 50px;
+}
+
+.code-tab-page li {
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .code .github {
+    position: relative;
+    top: 5px;
+  }
+  .code p {
+    display: block;
+    margin: 35px 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .page {
+    padding: 20px;
+  }
+  .code-tab-page li, .code-tab-page p {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .code ul.before:before, ul.after:after {
+    width: 1px;
+  }
+  .code {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .code-tab-page {
+    width: auto;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .code li {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+
+
