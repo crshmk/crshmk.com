@@ -10,7 +10,7 @@ let Home = () => {
   return (
     <div className="home hide-menu-active">
       <h1>Chris Hammock</h1>
-      <h3>Web Developer</h3>
+      <h3>Software Engineer</h3>
       <GithubIcon url={linkToThisRepo} />
     </div>
   )
