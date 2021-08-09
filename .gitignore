@@ -2,5 +2,6 @@
 .cache/
 assets/
 public/
+dist/
 node_modules
 package-lock.json
