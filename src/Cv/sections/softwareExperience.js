@@ -1,7 +1,7 @@
 let apple = {
   title: ['Software Engineer', 'Apple (on site contractor)'],
   subhead: ['', 'Austin, Texas'],
-  dates: 'Oct 2018 - Feb 2021',
+  dates: 'Oct 2018 - Aug 2021',
   tools: 'React, Express, graphQL',
   bullets: [
     'Led front end development from MVP to production',
