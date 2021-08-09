@@ -6,7 +6,7 @@ let Title = ({ item }) => {
     <>
     <p>
       <span className="title">{boldTitle}</span>
-      <span className="place-comma">,</span>
+      {faintTitle && <span className="place-comma">,</span>}
       <span className="place">{faintTitle}</span>
       <span className="date">{item.dates}</span>
     </p>
