@@ -2,18 +2,11 @@ let auv = {
   title: ['Associate Professor', 'American University of Vietnam'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
   dates: 'Spring 2016',
-  bullets: ['Taught Introduction to Web Development to undergraduates']
-}
-
-let gat = {
-  title: ['Consultant', 'Gifted and Talented Academy'],
-  subhead: ['', 'Ho Chi Minh City, Vietnam'],
-  dates: '2015',
-  bullets: ['Established academic operations for a startup school']
+  bullets: ['Taught spring semester Introduction to Web Development to undergraduates']
 }
 
 let aramco = {
-  title: ['Trainer (Contractor)', 'Saudi Aramco'],
+  title: ['Trainer (contractor)', 'Saudi Aramco'],
   subhead: ['', 'Dhahran, Saudi Arabia'],
   dates: 'Academic Year 2013 - 14',
   bullets: ['Provided professional training for new hires']
@@ -44,15 +37,18 @@ let ais = {
 }
 
 let english = {
-  title: ['English Teacher'],
+  title: ['English Teacher, Volunteer'],
   subhead: ['', 'South Korea and Nepal'],
-  dates: 'Jan 2004 - May 07'
+  dates: 'Jan 2004 - May 07',
+  bullets: [
+    'Taught English to fund world travel'
+  ]
 }
 
 
 let educationExperience = {
   title: 'Education Experience',
-  items: [auv, gat, aramco, ilbc, apu, ais, english]
+  items: [auv, aramco, ilbc, apu, ais, english]
 }
 
 export default educationExperience

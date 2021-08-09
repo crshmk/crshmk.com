@@ -1,12 +1,11 @@
 let apple = {
-  title: ['Software Engineer', 'Apple (on site contractor)'],
+  title: ['Software Engineer', 'Apple (on-site contractor)'],
   subhead: ['', 'Austin, Texas'],
   dates: 'Oct 2018 - Aug 2021',
   tools: 'React, Express, graphQL',
   bullets: [
-    'Led front end development from MVP to production',
-    'Mentored junior developers new to React',
-    'Created successful internal application with large user base'
+    'Led front end development of successful internal application from MVP through launch and growth',
+    'Mentored junior developers new to Javascript'
   ]
 }
 
@@ -14,7 +13,7 @@ let lusty = {
   title: ['Software Engineer', 'W. Lusty & Sons Furniture'],
   subhead: ['', 'Nha Trang, Vietnam'],
   dates: 'Jun 2016 - Mar 2018',
-  tools: 'Vue, php, Apache, Ubuntu',
+  tools: 'Vue, PHP, Apache, Ubuntu',
   bullets: [
     'Developed wlustyandsons.com website from concept to production',
     'Developed applications to manage furniture catalogue, customer accounts, and internal operations'
