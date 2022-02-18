@@ -3,17 +3,9 @@ import React from 'react'
 
 import GithubIcon from 'src/Icons/GithubIcon'
 
-let urlToFunctionalLib = 'https://github.com/crshmk/_'
 let urlToFunctionalGist = 'https://gist.github.com/crshmk/aa4a76eaa96a469b272a1110500f2054'
 let urlToPhp = 'https://github.com/crshmk/vue-php/blob/master/private/Http/Request.php'
 let urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/main/src'
-
-let FunctionalLibItem = () => (
-  <>
-    As instruction for new devs, I made a vanilla mini functional programming library. 
-    <GithubIcon url={urlToFunctionalLib}/>
-  </>
-)
 
 let FunctionalGistItem = () => (
   <>
@@ -39,10 +31,7 @@ let ReactItem = () => (
 export default [
   {
     header: 'declarative, functional Javascript',
-    items: [
-      <FunctionalGistItem />,
-      <FunctionalLibItem />
-    ]
+    items: [<FunctionalGistItem />]
   },
   {
     header: 'OOP',
