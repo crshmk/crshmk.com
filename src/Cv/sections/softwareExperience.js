@@ -1,3 +1,13 @@
+let ally = {
+  title: ['Senior Javascript Engineer', 'Ally Financial'],
+  subhead: ['', 'remote'],
+  dates: 'Sept 2021 - present',
+  tools: 'React',
+  bullets: [
+    'Maintained a feature of ally.com'
+  ]
+}
+
 let apple = {
   title: ['Software Engineer', 'Apple (on-site contractor)'],
   subhead: ['', 'Austin, Texas'],
@@ -15,7 +25,7 @@ let lusty = {
   dates: 'Jun 2016 - Mar 2018',
   tools: 'Vue, PHP, Apache, Ubuntu',
   bullets: [
-    'Developed wlustyandsons.com website from concept to production',
+    'Developed wlustyandsons.com from concept to production',
     'Developed applications to manage furniture catalogue, customer accounts, and internal operations'
   ]
 }
@@ -32,7 +42,7 @@ let freelance = {
 
 let softwareExperience = {
   title: 'Software Experience',
-  items: [apple, lusty, freelance]
+  items: [ally, apple, lusty, freelance]
 }
 
 export default softwareExperience
