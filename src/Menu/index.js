@@ -8,14 +8,14 @@ import Links from './Links'
 
 import useMenu from 'useMenu'
 
-let useClass = () => {
-  let { isMenuShowing } = useMenu()
+const useClass = () => {
+  const { isMenuShowing } = useMenu()
   return 'main-menu' + (isMenuShowing ? ' showing' : '')
 }
 
-let Menu = () => {
-  let { hideMenu } = useMenu()
-  let className = useClass()
+const Menu = () => {
+  const { hideMenu } = useMenu()
+  const className = useClass()
   return (
     <>
     <Button />

@@ -4,7 +4,7 @@ import makePageClassNames from '../makePageClassNames'
 
 import sections from './sections'
 
-let toolsSections = sections.map((section, i) => (
+const toolsSections = sections.map((section, i) => (
   <div key={i}>
     <h2>{section.header}</h2>
     <ul>
@@ -13,8 +13,8 @@ let toolsSections = sections.map((section, i) => (
   </div>
 ))
 
-let Tools = () => {
-  let className = makePageClassNames('tools')
+const Tools = () => {
+  const className = makePageClassNames('tools')
   return (
     <div className={className}>
       {toolsSections}

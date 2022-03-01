@@ -6,8 +6,8 @@ import makePageClassNames from '../makePageClassNames'
 
 import { mainLanguages, otherLanguages } from './sections'
 
-let Language = ({ item }) => {
-  let [language, years] = item
+const Language = ({ item }) => {
+  const [language, years] = item
   return (
     <li className="language-item">
       <span>{language}</span>
@@ -16,17 +16,17 @@ let Language = ({ item }) => {
   )
 }
 
-let makeMainLanguage = (language, i) => 
+const makeMainLanguage = (language, i) => 
   <Language key={i} item={language} />
 
-let makeOtherLanguage = language => 
+const makeOtherLanguage = language => 
   <li key={language}>{language}</li>
 
-let mainItems = mainLanguages.map(makeMainLanguage)
-let otherItems = otherLanguages.map(makeOtherLanguage)
+const mainItems = mainLanguages.map(makeMainLanguage)
+const otherItems = otherLanguages.map(makeOtherLanguage)
 
-let Languages = () => {
-  let className = makePageClassNames('languages')
+const Languages = () => {
+  const className = makePageClassNames('languages')
   return (
     <div className={className}>
       <h2>Years of use</h2>

@@ -1,7 +1,7 @@
 import useTabMenu from 'src/Code/useTabMenu'
 
-let makePageClassNames = pageName => {
-  let { activeTab } = useTabMenu()
+const makePageClassNames = pageName => {
+  const { activeTab } = useTabMenu()
   return 'code-tab-page' + (activeTab === pageName ? ' active' : '')
 }
 

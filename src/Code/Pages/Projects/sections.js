@@ -1,6 +1,6 @@
 import React from 'react'
 
-let LustySite = () => (
+const LustySite = () => (
   <>
     <a href="https://wlustyandsons.com" target="_blank">
       Public B2B website

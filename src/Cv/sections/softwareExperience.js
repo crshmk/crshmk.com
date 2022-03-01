@@ -1,4 +1,14 @@
-let apple = {
+const ally = {
+  title: ['Senior Javascript Engineer', 'Ally Financial'],
+  subhead: ['', 'remote'],
+  dates: 'Sept 2021 - present',
+  tools: 'React',
+  bullets: [
+    'Maintained a feature of ally.com'
+  ]
+}
+
+const apple = {
   title: ['Software Engineer', 'Apple (on-site contractor)'],
   subhead: ['', 'Austin, Texas'],
   dates: 'Oct 2018 - Aug 2021',
@@ -9,18 +19,18 @@ let apple = {
   ]
 }
 
-let lusty = {
+const lusty = {
   title: ['Software Engineer', 'W. Lusty & Sons Furniture'],
   subhead: ['', 'Nha Trang, Vietnam'],
   dates: 'Jun 2016 - Mar 2018',
   tools: 'Vue, PHP, Apache, Ubuntu',
   bullets: [
-    'Developed wlustyandsons.com website from concept to production',
+    'Developed wlustyandsons.com from concept to production',
     'Developed applications to manage furniture catalogue, customer accounts, and internal operations'
   ]
 }
 
-let freelance = {
+const freelance = {
   title: ['Freelance Web Developer'],
   subhead: ['', 'Nha Trang, Vietnam'],
   dates: 'Jan 2014 - Oct 2018',
@@ -30,9 +40,9 @@ let freelance = {
   ]
 }
 
-let softwareExperience = {
+const softwareExperience = {
   title: 'Software Experience',
-  items: [apple, lusty, freelance]
+  items: [ally, apple, lusty, freelance]
 }
 
 export default softwareExperience

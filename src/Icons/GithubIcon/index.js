@@ -2,7 +2,7 @@ import React from 'react'
 
 import './github-icon.css'
 
-let GithubIcon = ({ url }) => {
+const GithubIcon = ({ url }) => {
   url = url || 'https://github.com/crshmk'
 
   return (

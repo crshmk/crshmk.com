@@ -13,39 +13,39 @@ import {
   when 
 } from 'ramda'
 
-let leftmostTab = 'style'
-let rightmostTab = 'projects'
+const leftmostTab = 'style'
+const rightmostTab = 'projects'
 
-let isLeftTabActive = propEq('activeTab', leftmostTab)
-let isLeftTabHovered = propEq('hoveredTab', leftmostTab)
-let hideLeftBorder = anyPass([isLeftTabActive, isLeftTabHovered])
+const isLeftTabActive = propEq('activeTab', leftmostTab)
+const isLeftTabHovered = propEq('hoveredTab', leftmostTab)
+const hideLeftBorder = anyPass([isLeftTabActive, isLeftTabHovered])
 
-let isRightTabActive = propEq('activeTab', rightmostTab)
-let isRightTabHovered = propEq('hoveredTab', rightmostTab)
-let hideRightBorder = anyPass([isRightTabActive, isRightTabHovered])
+const isRightTabActive = propEq('activeTab', rightmostTab)
+const isRightTabHovered = propEq('hoveredTab', rightmostTab)
+const hideRightBorder = anyPass([isRightTabActive, isRightTabHovered])
 
 
-let addStaticClasses  = () => ['code-tab-nav', 'before', 'after']
+const addStaticClasses  = () => ['code-tab-nav', 'before', 'after']
 
-let maybeAddLeftBorderClass = state => when(
+const maybeAddLeftBorderClass = state => when(
     () => hideLeftBorder(state), 
     append('hide-border-left')
   )
 
-let maybeAddRightBorderClass = state => when(
+const maybeAddRightBorderClass = state => when(
   () => hideRightBorder(state), 
   append('hide-border-right')
 )
 
-let makeClasses = state => pipe(
+const makeClasses = state => pipe(
   addStaticClasses,
   maybeAddLeftBorderClass(state),
   maybeAddRightBorderClass(state),
   join(' ')
 )
 
-let useListClasses = () => {
-  let state = useTabMenu()
+const useListClasses = () => {
+  const state = useTabMenu()
   return makeClasses(state)()
 }
 

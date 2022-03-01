@@ -6,15 +6,15 @@ import useListClasses from './useListClasses'
 
 import MenuItem from './MenuItem'
 
-let tabNames = ['style', 'tools', 'languages', 'projects']
+const tabNames = ['style', 'tools', 'languages', 'projects']
 
-let makeMenuItem = (tabName, i) => 
+const makeMenuItem = (tabName, i) => 
   <MenuItem key={i} tabName={tabName} />
 
-let menuItems = tabNames.map(makeMenuItem)
+const menuItems = tabNames.map(makeMenuItem)
 
-let Tabs = () => {
-  let listClasses = useListClasses()
+const Tabs = () => {
+  const listClasses = useListClasses()
   return (
     <nav>
       <ul className={listClasses}>

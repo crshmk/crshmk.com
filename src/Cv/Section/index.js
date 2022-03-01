@@ -4,12 +4,12 @@ import { map } from 'ramda'
 
 import Item from './Item'
 
-let makeItems = map(item => 
+const makeItems = map(item => 
   <Item key={item.title} item={item} />
 )
 
-let Section = ({ section, i }) => {
-  let items = makeItems(section.items)
+const Section = ({ section, i }) => {
+  const items = makeItems(section.items)
   return (
     <div key={section.title} className="cv-section">
       <h3>

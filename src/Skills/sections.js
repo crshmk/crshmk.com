@@ -1,4 +1,4 @@
-let leadership = {
+const leadership = {
   title: 'Leadership',
   items: [
     {
@@ -20,7 +20,7 @@ let leadership = {
   ]
 }
 
-let communication = {
+const communication = {
   title: 'Communication',
   items: [
     {
@@ -29,7 +29,7 @@ let communication = {
   ]
 }
 
-let flexibility = {
+const flexibility = {
   title: 'Flexibility',
   items: [
     {
@@ -38,7 +38,7 @@ let flexibility = {
   ]
 }
 
-let ethic = {
+const ethic = {
   title: 'Ethic',
   items: [
     {

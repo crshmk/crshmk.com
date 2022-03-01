@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import './menu-borders.css'
 
-let Borders = () => (
+const Borders = () => (
   <Fragment>
     <div className="before nav-left-top"></div>
     <div className="after nav-top"></div>

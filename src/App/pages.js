@@ -16,7 +16,7 @@ import Skills from '../Skills'
 
 import { concat, map, mergeDeepRight } from 'ramda'
 
-let pages = [
+const pages = [
   {
     path: '/',
     label: 'home',
@@ -45,10 +45,10 @@ let pages = [
 ]
 
 // e.g. create path '/life' from label 'life' 
-let makePathFromLabel = concat('/')
+const makePathFromLabel = concat('/')
 
-let addPaths = map(page => {
-  let path = page.path || makePathFromLabel(page.label)
+const addPaths = map(page => {
+  const path = page.path || makePathFromLabel(page.label)
   return mergeDeepRight(page, {path})
 })
 

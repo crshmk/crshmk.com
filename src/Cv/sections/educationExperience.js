@@ -1,32 +1,32 @@
-let auv = {
+const auv = {
   title: ['Associate Professor', 'American University of Vietnam'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
   dates: 'Spring 2016',
   bullets: ['Taught spring semester Introduction to Web Development to undergraduates']
 }
 
-let aramco = {
+const aramco = {
   title: ['Trainer (contractor)', 'Saudi Aramco'],
   subhead: ['', 'Dhahran, Saudi Arabia'],
   dates: 'Academic Year 2013 - 14',
   bullets: ['Provided professional training for new hires']
 }
 
-let ilbc = {
+const ilbc = {
   title: ['Curriculum Coordinator', 'International Language & Business Center'],
   subhead: ['', 'Yangon, Myanmar'],
   dates: 'Academic Year 2012 - 13',
   bullets: ['Managed curricula for a university prep program']
 }
 
-let apu = {
+const apu = {
   title: ['Department Chair', 'APU International School'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
   dates: 'Academic Year 2011 - 12',
   bullets: ['Managed social studies and language arts departments']
 } 
 
-let ais = {
+const ais = {
   title: ['History Teacher', 'American International School'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
   dates: 'Academic Years 2007 - 11',
@@ -36,7 +36,7 @@ let ais = {
   ]
 }
 
-let english = {
+const english = {
   title: ['English Teacher, Volunteer'],
   subhead: ['', 'South Korea and Nepal'],
   dates: 'Jan 2004 - May 07',
@@ -46,7 +46,7 @@ let english = {
 }
 
 
-let educationExperience = {
+const educationExperience = {
   title: 'Education Experience',
   items: [auv, aramco, ilbc, apu, ais, english]
 }
