@@ -5,7 +5,7 @@ import Languages from './Languages'
 import Style from './Style'
 import Tools from './Tools'
 
-let Pages = () => (
+const Pages = () => (
   <div className="code-content">
     <Style />
     <Tools />

@@ -1,7 +1,7 @@
 import React from 'react'
 
-let Subhead = ({ item }) => {
-  let [subhead, italicSubhead] = item.subhead
+const Subhead = ({ item }) => {
+  const [subhead, italicSubhead] = item.subhead
 
   return (
     <p>

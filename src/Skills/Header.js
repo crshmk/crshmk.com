@@ -1,6 +1,6 @@
 import React from 'react'
 
-let Header = () => (
+const Header = () => (
   <h1>
     <span className="number"></span>
     <span>Skills Summary</span>

@@ -7,12 +7,12 @@ import sections from './sections'
 import Header from './Header'
 import Section from './Section'
 
-let makeSection = (section, i) => 
+const makeSection = (section, i) => 
   <Section key={i} section={section} />
 
-let sectionItems = sections.map(makeSection)
+const sectionItems = sections.map(makeSection)
 
-let Skills = () => (
+const Skills = () => (
   <div className="skills page hide-menu-active">
     <Header />
     <div className="skills-content">

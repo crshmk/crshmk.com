@@ -6,12 +6,12 @@ import sections from './sections'
 
 import Section from './Section'
 
-let makeSection = (section, i) => 
-  <Section key={section.title} section={section} i={i} />
+const makeSection = (section, i) => 
+  <Section key={i} section={section} i={i} />
 
-let cvSections = sections.map(makeSection)
+const cvSections = sections.map(makeSection)
 
-let Cv = () => (
+const Cv = () => (
   <div className="cv page hide-menu-active">
     {cvSections}
   </div>

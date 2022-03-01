@@ -6,7 +6,7 @@ import Pages from './Pages'
 import TabMenu from './TabMenu'
 import { TabMenuProvider } from './useTabMenu'
 
-let Code = () => (
+const Code = () => (
   <TabMenuProvider>
     <div className="code page hide-menu-active">
       <TabMenu />

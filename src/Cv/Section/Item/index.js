@@ -4,7 +4,7 @@ import Bullets from './Bullets'
 import Subhead from './Subhead'
 import Title from './Title'
 
-let Item = ({ item }) => (
+const Item = ({ item }) => (
   <div className="cv-section-item">
     <Title item={item} />
     <Subhead item={item} />

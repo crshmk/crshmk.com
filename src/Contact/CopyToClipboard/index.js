@@ -6,8 +6,8 @@ import CopyIcon from 'Icons/CopyIcon'
 
 import useCopy from './useCopy'
 
-let CopyToClipboard = () => {
-  let { className, onClick } = useCopy()
+const CopyToClipboard = () => {
+  const { className, onClick } = useCopy()
 
   return (
     <span className={className}>

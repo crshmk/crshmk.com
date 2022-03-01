@@ -5,7 +5,7 @@ import pages from 'App/pages'
 
 import { map } from 'ramda'
 
-let makeLinks = map(({ label, path }) => (
+const makeLinks = map(({ label, path }) => (
   <li key={label} aria-label={label}>
     <NavLink 
       exact
@@ -17,10 +17,9 @@ let makeLinks = map(({ label, path }) => (
   </li>
 ))
 
-let links = makeLinks(pages)
+const links = makeLinks(pages)
 
-let Links = () => (
+const Links = () =>
   <ul>{links}</ul>
-)
 
 export default Links

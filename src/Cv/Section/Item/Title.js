@@ -1,7 +1,7 @@
 import React from 'react'
 
-let Title = ({ item }) => {
-  let [boldTitle, faintTitle] = item.title 
+const Title = ({ item }) => {
+  const [boldTitle, faintTitle] = item.title 
   return (
     <>
     <p>
