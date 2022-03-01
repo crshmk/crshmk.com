@@ -1,6 +1,6 @@
 import React from 'react'
 
-let CopyIcon = () => (
+const CopyIcon = () => (
   <svg 
     height="24px" 
     viewBox="0 0 24 24" 

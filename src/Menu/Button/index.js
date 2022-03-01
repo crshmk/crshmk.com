@@ -4,20 +4,20 @@ import './menu-button.css'
 
 import useMenu from 'useMenu'
 
-let props = {
+const props = {
   'aria-label': 'show main menu',
   role: 'button',
   tabIndex: '0'
 }
 
-let useClass = () => {
-  let { isMenuShowing } = useMenu()
+const useClass = () => {
+  const { isMenuShowing } = useMenu()
   return 'menu-btn' + (isMenuShowing ? ' showing' : '')
 }
 
-let Button = () => {
-  let { showMenu } = useMenu()
-  let className = useClass()
+const Button = () => {
+  const { showMenu } = useMenu()
+  const className = useClass()
 
   return (
     <div 

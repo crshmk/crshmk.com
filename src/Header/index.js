@@ -5,13 +5,13 @@ import './header.css'
 
 import { tail } from 'ramda'
 
-let usePath = () => {
-  let { pathname } = useLocation()
+const usePath = () => {
+  const { pathname } = useLocation()
   return tail(pathname) || 'home'
 }
 
-let Header = () => {
-  let path = usePath()
+const Header = () => {
+  const path = usePath()
 
   return (
     <div className="app-header">

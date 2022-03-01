@@ -8,7 +8,7 @@ import { MenuProvider } from 'useMenu'
 
 import './styles.css'
 
-let App = () => {
+const App = () => {
   return (
     <Router>
       <MenuProvider>

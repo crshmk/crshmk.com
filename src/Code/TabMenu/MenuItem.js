@@ -4,14 +4,14 @@ import './tab-menu.css'
 
 import useTabMenu from 'src/Code/useTabMenu'
 
-let makeTabClassNames = tabName => {
-  let { activeTab } = useTabMenu()
+const makeTabClassNames = tabName => {
+  const { activeTab } = useTabMenu()
   return 'code-menu-item before ' + (activeTab === tabName ? ' tab-active' : '')
 }
 
-let MenuItem = ({tabName}) => {
-  let { setActiveTab, setHoveredTab } = useTabMenu()
-  let className = makeTabClassNames(tabName)
+const MenuItem = ({tabName}) => {
+  const { setActiveTab, setHoveredTab } = useTabMenu()
+  const className = makeTabClassNames(tabName)
   return (
     <li
       key={tabName}

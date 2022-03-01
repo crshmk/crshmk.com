@@ -7,16 +7,16 @@ import { map } from 'ramda'
 
 import useMenu from 'src/Menu/useMenu'
 
-let makeRoute = ({ Component, path }) => (
+const makeRoute = ({ Component, path }) => (
   <Route key={path} exact path={path}>
     <Component />
   </Route>
 )
 
-let routes = map(makeRoute, pages)
+const routes = map(makeRoute, pages)
 
-let Routes = () => {
-  let { hideMenu } = useMenu()
+const Routes = () => {
+  const { hideMenu } = useMenu()
   return (
     <Switch>
       <div onClick={hideMenu}>

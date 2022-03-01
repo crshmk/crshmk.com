@@ -1,16 +1,16 @@
 import { useState } from 'react'
 
-let copyEmail = () => {
+const copyEmail = () => {
   navigator.clipboard.writeText('hello@crshmk.com')
 }
 
-let makeClassName = hasCopied => 
+const makeClassName = hasCopied => 
   'copy-to-clipboard' +  (hasCopied ? ' active' : '')
 
-let useCopy = () => {
-  let [hasCopied, setHasCopied] = useState(false)
+const useCopy = () => {
+  const [hasCopied, setHasCopied] = useState(false)
 
-  let onClick = () => {
+  const onClick = () => {
     if(hasCopied) return
     copyEmail()
     setHasCopied(true)
@@ -19,7 +19,7 @@ let useCopy = () => {
     }, 4000)
   }
 
-  let className = makeClassName(hasCopied)
+  const className = makeClassName(hasCopied)
 
   return { className, onClick }
 }

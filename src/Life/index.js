@@ -6,12 +6,12 @@ import blurbs from './blurbs'
 
 import { map } from 'ramda'
 
-let makeBlurb = (blurb, i) => 
+const makeBlurb = (blurb, i) => 
   <p key={i}>{blurb}</p>
 
-let paragraphs = blurbs.map(makeBlurb)
+const paragraphs = blurbs.map(makeBlurb)
 
-let Life = () => (
+const Life = () => (
   <div className="life hide-menu-active">
     {paragraphs}
   </div>

@@ -4,9 +4,9 @@ import './home.css'
 
 import GithubIcon from 'src/Icons/GithubIcon'
 
-let linkToThisRepo = 'https://github.com/crshmk/crshmk.com'
+const linkToThisRepo = 'https://github.com/crshmk/crshmk.com'
 
-let Home = () => {
+const Home = () => {
   return (
     <div className="home hide-menu-active">
       <h1>Chris Hammock</h1>

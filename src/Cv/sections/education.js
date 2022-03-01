@@ -1,16 +1,16 @@
-let med = {
+const med = {
   title: ['Master of Education (M.Ed.)', 'Secondary Education'],
   subhead: ['The College of New Jersey'],
   dates: '2012'
 }
 
-let ba =  {
+const ba =  {
   title: ['Bachelor of Arts (B.A.)', 'International Relations'],
   subhead: ['Roanoke College', 'Salem, Virginia'],
   dates: '2003'
 }
 
-let education = {
+const education = {
   title: 'Education',
   items: [med, ba]
 }

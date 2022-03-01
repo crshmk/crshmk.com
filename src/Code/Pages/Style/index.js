@@ -4,19 +4,19 @@ import sections from './sections'
 
 import makePageClassNames from '../makePageClassNames'
 
-let makeItem = (item, i) => <p key={i}>{item}</p>
+const makeItem = (item, i) => <p key={i}>{item}</p>
 
-let makeSection = (section, i) => (
+const makeSection = (section, i) => (
   <div key={i}>
     <h2>{section.header}</h2>
     {section.items.map(makeItem)}
   </div>
 )
 
-let Sections = () => sections.map(makeSection)
+const Sections = () => sections.map(makeSection)
 
-let Style = () => {
-  let className = makePageClassNames('style')
+const Style = () => {
+  const className = makePageClassNames('style')
   return (
     <div className={className}>
       <Sections />
