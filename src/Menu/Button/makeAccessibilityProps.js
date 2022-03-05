@@ -1,5 +1,5 @@
 import { pipe } from 'ramda'
-import onKey from '../../utils/onKey'
+import { onKey } from '../../utils'
 
 const staticProps = {
   'aria-label': 'show main menu',

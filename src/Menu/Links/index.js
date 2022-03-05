@@ -5,8 +5,8 @@ import pages from 'App/pages'
 
 import useMenu from '../useMenu'
 
-import onKey from '../../utils/onKey'
 import { map } from 'ramda'
+import { onKey } from '../../utils'
 
 const Link = ({ label, path }) => {
   const { hideMenu } = useMenu()
