@@ -4,11 +4,7 @@ import './menu-button.css'
 
 import useMenu from 'useMenu'
 
-const props = {
-  'aria-label': 'show main menu',
-  role: 'button',
-  tabIndex: '0'
-}
+import makeAccessibilityProps from './makeAccessibilityProps'
 
 const useClass = () => {
   const { isMenuShowing } = useMenu()
@@ -18,14 +14,14 @@ const useClass = () => {
 const Button = () => {
   const { showMenu } = useMenu()
   const className = useClass()
+  const accessibilityProps = makeAccessibilityProps(showMenu)
 
   return (
     <div 
-      {...props}
+      {...accessibilityProps}
       className={className}
       onClick={showMenu}
       onMouseEnter={showMenu}
-      onKeyDown={showMenu}
     >
       menu
     </div>
