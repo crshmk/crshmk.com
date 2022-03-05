@@ -8,16 +8,14 @@ import { MenuProvider } from 'useMenu'
 
 import './styles.css'
 
-const App = () => {
-  return (
-    <Router>
-      <MenuProvider>
-        <Header />
-        <Menu />
-        <Routes />
-      </MenuProvider>
-    </Router>
-  )
-} 
+const App = () => (
+  <Router>
+    <MenuProvider>
+      <Header />
+      <Menu />
+      <Routes />
+    </MenuProvider>
+  </Router>
+)
   
 export default App
