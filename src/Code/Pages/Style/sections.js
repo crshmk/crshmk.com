@@ -3,7 +3,7 @@ import React from 'react'
 
 import GithubIcon from 'src/Icons/GithubIcon'
 
-const urlToFunctionalGist = 'https://gist.github.com/crshmk/aa4a76eaa96a469b272a1110500f2054'
+const urlToFunctionalGist = 'https://gist.github.com/crshmk/b87db5c3dc79211ea4adec51310aa4e1'
 const urlToPhp = 'https://github.com/crshmk/vue-php/blob/master/private/Http/Request.php'
 const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/main/src'
 
