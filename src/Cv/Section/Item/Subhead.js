@@ -6,7 +6,7 @@ const Subhead = ({ item }) => {
   return (
     <p>
       {subhead && <span>{subhead}</span>}
-      <span><i>{italicSubhead}</i></span>
+      {italicSubhead && <span>, <i>{italicSubhead}</i></span>}
     </p>
   )
 }
