@@ -4,7 +4,7 @@ const edCareer = "My first career was in private international education. I was 
 
 const softwareCareer = "In 2014 I transitioned from from education to software. I initially worked as an independent freelancer. About a couple years in, a furniture factory hired me as a full time software engineer. I created a a B2B catalogue and a number of administrative tools to aid operations."
 
-const apple = "In 2018 I moved back to the US and took a contracting job as a Javascript Engineer at Apple. When I arrived, there was a small MVP. When I left, we had a successful app in production with a large user base. I led the React development and the front end architecture. I also mentored junior developers new to React. It was a very successful project. I then took a full time position as a Senior Javascript Engineer at Ally Bank."
+const apple = "In 2018 I moved back to the US and took a contracting job as a Javascript Engineer at Apple. When I arrived, there was a small MVP. When I left, we had a successful app in production with a large user base. I led the React development and the front end architecture. I also mentored junior developers new to React. It was a very successful project. I've since continued to work as a senior Javascript engineer."
 
 const music = "I'm also a guitarist. I've gigged professionally for years."
 
