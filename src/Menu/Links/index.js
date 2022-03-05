@@ -12,7 +12,7 @@ const Link = ({ label, path }) => {
   const { hideMenu } = useMenu()
   const onKeyDown = onKey({ Escape: hideMenu })
   return (
-    <li key={label} aria-label={label}>
+    <li aria-label={label}>
       <NavLink 
         exact
         activeClassName="active-menu-item"
@@ -27,7 +27,7 @@ const Link = ({ label, path }) => {
 }
 
 const makeLinks = map(({ label, path }) => {
-  return <Link label={label} path={path} />
+  return <Link key={label} label={label} path={path} />
 } )
 
 const links = makeLinks(pages)
