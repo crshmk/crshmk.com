@@ -1,7 +1,7 @@
 const ally = {
   title: ['Senior Javascript Engineer', 'Ally Financial'],
   subhead: ['', 'remote'],
-  dates: 'Sept 2021 - present',
+  dates: 'Sep 2021 - Mar 2022',
   tools: 'React',
   bullets: [
     'Maintained a feature of ally.com'
