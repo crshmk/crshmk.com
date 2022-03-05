@@ -4,8 +4,6 @@ import './life.css'
 
 import blurbs from './blurbs'
 
-import { map } from 'ramda'
-
 const makeBlurb = (blurb, i) => 
   <p key={i}>{blurb}</p>
 
