@@ -8,7 +8,7 @@ const toolsSections = sections.map((section, i) => (
   <div key={i}>
     <h2>{section.header}</h2>
     <ul>
-      {section.items.map(item => <li>{item}</li>)}
+      {section.items.map((item, i) => <li key={i}>{item}</li>)}
     </ul>
   </div>
 ))
