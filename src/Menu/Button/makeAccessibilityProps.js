@@ -1,4 +1,5 @@
-import onKey from "../../utils/onKey"
+import { pipe } from 'ramda'
+import onKey from '../../utils/onKey'
 
 const staticProps = {
   'aria-label': 'show main menu',
@@ -6,9 +7,15 @@ const staticProps = {
   tabIndex: '0'
 }
 
+const focusHomeLink = () => {
+  const homeLink = document.querySelector("[href='/']")
+  homeLink && homeLink.focus()
+}
+
 const makeAccessibilityProps = showMenu => {
+  const onEnterKey = pipe(showMenu, focusHomeLink)
   const onKeyDown = onKey({
-    Enter: showMenu
+    Enter: onEnterKey
   })
 
   return { ...staticProps, onKeyDown }
