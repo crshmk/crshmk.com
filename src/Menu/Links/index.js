@@ -4,15 +4,13 @@ import { NavLink } from 'react-router-dom'
 import pages from 'App/pages'
 
 import useMenu from '../useMenu'
-import { map } from 'ramda'
 
-const onKey = hideMenu => e => {
-  if(e.key === 'Escape') hideMenu()
-}
+import onKey from '../../utils/onKey'
+import { map } from 'ramda'
 
 const Link = ({ label, path }) => {
   const { hideMenu } = useMenu()
-  const onKeyDown = onKey(hideMenu)
+  const onKeyDown = onKey({ Escape: hideMenu })
   return (
     <li key={label} aria-label={label}>
       <NavLink 
