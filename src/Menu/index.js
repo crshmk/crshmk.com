@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import './menu.css'
 
@@ -8,6 +8,8 @@ import Links from './Links'
 
 import useMenu from 'useMenu'
 
+import { blurActiveElement } from '../utils'
+
 const useClass = () => {
   const { isMenuShowing } = useMenu()
   return 'main-menu' + (isMenuShowing ? ' showing' : '')
@@ -16,6 +18,9 @@ const useClass = () => {
 const Menu = () => {
   const { hideMenu } = useMenu()
   const className = useClass()
+
+  useEffect(() => blurActiveElement)
+
   return (
     <>
     <Button />

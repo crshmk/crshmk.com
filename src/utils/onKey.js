@@ -11,10 +11,8 @@
  */
 import { isNil } from 'ramda'
 
-const onKey = mapping => e => {
+export const onKey = mapping => e => {
   const cb = mapping[e.key]
   if(isNil(cb)) return 
   cb(e)
 }
-
-export default onKey
