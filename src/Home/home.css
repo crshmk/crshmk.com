@@ -1,5 +1,30 @@
 .home {
-  padding: 100px;
+  position: relative;
+  padding-top: 100px;
   margin-top: 70px;
   text-align: center;
+}
+
+.filter-card-punchers {
+  margin-top: 50px;
+}
+
+.home-repo-link {
+  position: fixed;
+  left: calc(50% - 12.5px);
+  bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-repo-link {
+    bottom: 70px;
+  }
+}
+
+.home-repo-link .github {
+  margin: 0;
+}
+
+.home a {
+  color: #08c;
 }
