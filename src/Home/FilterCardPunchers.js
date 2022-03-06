@@ -3,7 +3,7 @@ import React from 'react'
 const urlToFpGist = 'https://gist.github.com/crshmk/b87db5c3dc79211ea4adec51310aa4e1'
 
 const LinkToRamdaRepl = () => (
-  <a href={urlToFpGist} target="_blank">this</a>
+  <a href={urlToFpGist} target="_blank">functional programming with Javascript</a>
 )
 
 const FilterCardPunchers = () => (
