@@ -5,19 +5,9 @@ export default [
       'React',
       'Vue',
       'Node / Express',
-      'graphQL',
+      'GraphQL',
       'PHP',
       'MySQL'
-    ]
-  },
-  {
-    header: 'My most previous role used',
-    items: [
-      'React',
-      'MobX',
-      'graphQL',
-      'Node / Express proxy',
-      'internal api'
     ]
   },
   {
@@ -26,7 +16,7 @@ export default [
   },
   {
     header: 'I usually test with',
-    items: ['Jest', 'react testing library']
+    items: ['Jest', 'React Testing Library']
   },
   {
     header: 'I usually build with',
@@ -38,7 +28,7 @@ export default [
   },
   {
     header: 'The first package I install in a project is',
-    items: ['ramda']
+    items: ['Ramda']
   },
   {
     header: 'I have made small projects with',
