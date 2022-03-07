@@ -9,7 +9,7 @@ const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/main/src'
 
 const FunctionalGistItem = () => (
   <>
-  I like passing around short, composable functions, often as pipelines.
+  I like creating small, composable functions.
   <GithubIcon url={urlToFunctionalGist}/>
   </>
 )
@@ -23,7 +23,7 @@ const PhpItem = () => (
 
 const ReactItem = () => (
   <>
-    like the code for this site 
+    like the code for this site.
     <GithubIcon url={urlToThisRepo}/>
   </>
 )
