@@ -5,10 +5,6 @@
   text-align: center;
 }
 
-.filter-card-punchers {
-  margin-top: 50px;
-}
-
 .home-repo-link {
   position: fixed;
   left: calc(50% - 12.5px);
@@ -23,8 +19,4 @@
 
 .home-repo-link .github {
   margin: 0;
-}
-
-.home a {
-  color: #08c;
 }
