@@ -1,8 +1,8 @@
 export const mainLanguages = [
-  ['html, css', '12'],
-  ['javascript', '7'],
+  ['html, css', '10+'],
+  ['javascript', '8'],
   ['php', '4'],
-  ['mysql', '4']
+  ['mysql', '5']
 ]
 
-export const otherLanguages = ['C', 'python', 'swift']
+export const otherLanguages = ['python', 'swift']

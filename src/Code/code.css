@@ -1,8 +1,13 @@
 .code {
   position: relative;
   padding-top: 20px;
-  width: 80%;
-  margin-left: 10%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.code nav {
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .code a {
@@ -13,7 +18,6 @@
 .code p {
   display: flex;
   align-items: center;
-  padding-left: 50px;
 }
 
 .code-content {
@@ -38,17 +42,25 @@
 }
 
 .code-tab-page li {
-  padding-left: 50px;
+  position: relative;
+  margin-left: 7px;
+}
+
+.code-tab-page li:before {
+  position: absolute;
+  content: '';
+  top: 15px;
+  left: -7px;
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 1250px) {
   .code .github {
     position: relative;
     top: 5px;
-  }
-  .code p {
-    display: block;
-    margin: 35px 0;
   }
 }
 
@@ -66,18 +78,14 @@
     width: 90%;
     margin: 0 auto;
   }
+}
+
+@media only screen and (max-width: 370px) {
   .code-tab-page {
-    width: auto;
-    padding-right: 50px;
+    padding-right: 10px;
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .code li {
-    font-size: 13px;
-    font-weight: bold;
-  }
-}
 
 
 

@@ -9,28 +9,28 @@ const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/main/src'
 
 const UtilLibrary = () => (
   <>
-  I like creating small, composable functions.
+  small, composable functions
   <GithubIcon url={urlToUtilLibrary}/>
   </>
 )
 
 const PhpItem = () => (
   <>
-  I also know when to reach for objects.
+  when necessary
   <GithubIcon url={urlToPhp}/>
   </>
 )
 
 const ReactItem = () => (
   <>
-    like the code for this site.
+    like the code for this site
     <GithubIcon url={urlToThisRepo}/>
   </>
 )
 
 export default [
   {
-    header: 'declarative, functional Javascript',
+    header: 'Declarative, functional Javascript',
     items: [<UtilLibrary />]
   },
   {
@@ -38,11 +38,11 @@ export default [
     items: [<PhpItem />]
   },
   {
-    header: 'state',
-    items: ['I can design complex, elegant state with a one-way, data-down approach that leverages computed values.']
+    header: 'State',
+    items: ['complex, elegant state design']
   },
   {
-    header: 'small, clean React components',
+    header: 'Small, clean React components',
     items: [<ReactItem />]
   }
 ]
