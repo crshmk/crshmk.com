@@ -3,14 +3,14 @@ import React from 'react'
 
 import GithubIcon from 'src/Icons/GithubIcon'
 
-const urlToFunctionalGist = 'https://gist.github.com/crshmk/8613a0f60662047420b1821d64fa9c31'
+const urlToUtilLibrary = 'https://github.com/crshmk/utils'
 const urlToPhp = 'https://github.com/crshmk/vue-php/blob/master/private/Http/Request.php'
 const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/main/src'
 
-const FunctionalGistItem = () => (
+const UtilLibrary = () => (
   <>
   I like creating small, composable functions.
-  <GithubIcon url={urlToFunctionalGist}/>
+  <GithubIcon url={urlToUtilLibrary}/>
   </>
 )
 
@@ -31,7 +31,7 @@ const ReactItem = () => (
 export default [
   {
     header: 'declarative, functional Javascript',
-    items: [<FunctionalGistItem />]
+    items: [<UtilLibrary />]
   },
   {
     header: 'OOP',
