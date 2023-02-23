@@ -9,10 +9,10 @@ import { mainLanguages, otherLanguages } from './sections'
 const Language = ({ item }) => {
   const [language, years] = item
   return (
-    <li className="language-item">
+    <p className="language-item">
       <span>{language}</span>
       <span>{years}</span>
-    </li>
+    </p>
   )
 }
 
@@ -20,7 +20,7 @@ const makeMainLanguage = (language, i) =>
   <Language key={i} item={language} />
 
 const makeOtherLanguage = language => 
-  <li key={language}>{language}</li>
+  <p key={language}>{language}</p>
 
 const mainItems = mainLanguages.map(makeMainLanguage)
 const otherItems = otherLanguages.map(makeOtherLanguage)
@@ -30,9 +30,7 @@ const Languages = () => {
   return (
     <div className={className}>
       <h2>Years of use</h2>
-      <ul>
         {mainItems}
-      </ul>
       <h3>I also know a bit of</h3>
       <ul>
         {otherItems}

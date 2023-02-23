@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default [
   {
     header: 'I have written business applications currently in production using',
@@ -11,8 +13,8 @@ export default [
     ]
   },
   {
-    header: "I've spent most of the last few years writing",
-    items: ['client code with React']
+    header: "I've spent most of the last five years writing",
+    items: ['client code with React', 'Node servers with Express']
   },
   {
     header: 'I usually test with',
@@ -23,26 +25,26 @@ export default [
     items: [
       'Webpack',
       'Parcel',
-      'Browserify'
+      'Browserify',
+      'Rollup'
     ]
   },
   {
     header: 'The first package I install in a project is',
-    items: ['Ramda']
+    items: [<a href="https://ramdajs.com/" target="_blank">Ramda</a>]
   },
   {
     header: 'I have made small projects with',
     items: [
       'Angular 2+',
-      'Electron',
+      <a href="https://github.com/crshmk/electron-react-menu-bar" target="_blank">Electron</a>,
       'Ionic',
       'Laravel',
-      'MongoDB',
-      'Firebase'
+      'MongoDB'
     ]
   },
   {
-    header: 'In the past, I extensively used',
+    header: 'In the past, I used',
     items: ['jQuery']
   }
 ]
