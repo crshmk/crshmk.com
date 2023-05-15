@@ -6,7 +6,7 @@ import useListClasses from './useListClasses'
 
 import MenuItem from './MenuItem'
 
-const tabNames = ['style', 'tools', 'languages']
+const tabNames = ['style', 'tools', 'contributions']
 
 const makeMenuItem = (tabName, i) => 
   <MenuItem key={i} tabName={tabName} />
