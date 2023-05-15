@@ -2,11 +2,11 @@ import React from 'react'
 
 import GithubIcon from 'src/Icons/GithubIcon'
 
-const linkToThisRepo = 'https://github.com/crshmk/crshmk.com'
+const linkToGithubProfile = 'https://github.com/crshmk'
 
 const LinkToThisRepo = () => (
   <div className='home-repo-link'>
-    <GithubIcon url={linkToThisRepo} />
+    <GithubIcon url={linkToGithubProfile} />
   </div>
 )
 
