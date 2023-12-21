@@ -1,3 +1,13 @@
+const current = {
+  title: ['Web Application Developer'],
+  subhead: ['', 'Nha Trang, Vietnam'],
+  dates: '2022 - present',
+  tools: 'React, Node / Express, MySQL, Nginx, Ubuntu',
+  bullets: [
+    'Created various web applications for myself'
+  ]
+}
+
 const ally = {
   title: ['Senior Javascript Engineer', 'Ally Financial'],
   subhead: ['', 'remote'],
@@ -42,7 +52,7 @@ const freelance = {
 
 const softwareExperience = {
   title: 'Software Experience',
-  items: [ally, apple, lusty, freelance]
+  items: [current, ally, apple, lusty, freelance]
 }
 
 export default softwareExperience
