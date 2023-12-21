@@ -39,7 +39,7 @@ export default [
   },
   {
     header: 'State',
-    items: ['complex, elegant state design']
+    items: ['elegant state design']
   },
   {
     header: 'Small, clean React components',
