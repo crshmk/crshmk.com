@@ -6,6 +6,7 @@ export default [
     items: [
       'React',
       'Vue',
+      'Typescript',
       'Node / Express',
       'GraphQL',
       'PHP',
