@@ -4,7 +4,7 @@ const Subhead = ({ item }) => {
   const [subhead, italicSubhead] = item.subhead
 
   return (
-    <p>
+    <p className="subhead">
       {subhead && <span>{subhead}</span>}
       <span><i>{italicSubhead}</i></span>
     </p>
