@@ -1,3 +1,14 @@
+.cv p.print {
+  display: none;
+}
+.is-print-cv .cv p.print {
+  display: block;
+}
+
+.print a {
+  color: #0073b1;
+}
+
 
 .cv-section {
   margin-bottom: 60px;
@@ -65,6 +76,10 @@
   height: 5px;
   border-radius: 50%;
   background-color: #121212;
+}
+
+.bullet-date {
+  font-size: 16px;
 }
 
 .tools {
