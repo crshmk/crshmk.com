@@ -8,13 +8,13 @@ export default [
       'Vue',
       'Typescript',
       'Node / Express',
-      'GraphQL',
       'PHP',
+      'GraphQL',
       'MySQL'
     ]
   },
   {
-    header: "I've spent most of the last five years writing",
+    header: "I spend most of my time writing",
     items: ['client code with React', 'Node servers with Express']
   },
   {
