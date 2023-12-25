@@ -22,7 +22,7 @@ export const MenuProvider = props => {
 
   const ctx = { hideMenu, isMenuShowing, showMenu }
 
-  const className = isMenuShowing ? 'menu-active' : ''
+  const className = isPrintCv ? 'is-print-cv' : isMenuShowing ? 'menu-active' : ''
 
   return (
     <MenuContext.Provider value={ctx}>
@@ -34,3 +34,5 @@ export const MenuProvider = props => {
 }
 
 export default useMenu
+
+const isPrintCv = false 
