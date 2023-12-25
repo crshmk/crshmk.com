@@ -4,7 +4,7 @@ const current = {
   dates: '2022 - present',
   tools: 'React, Node / Express, MySQL, Nginx, Ubuntu',
   bullets: [
-    'Created various web applications for myself'
+    'Created various privately owned applications'
   ]
 }
 
@@ -22,7 +22,7 @@ const apple = {
   title: ['Software Engineer', 'Apple (on-site contractor)'],
   subhead: ['', 'Austin, Texas'],
   dates: 'Oct 2018 - Aug 2021',
-  tools: 'React, Express, graphQL',
+  tools: 'React, Express, GraphQL',
   bullets: [
     'Led front end development of successful internal application from MVP through launch and growth',
     'Mentored junior developers new to Javascript'
@@ -44,7 +44,7 @@ const freelance = {
   title: ['Freelance Web Developer'],
   subhead: ['', 'Nha Trang, Vietnam'],
   dates: 'Jan 2014 - Oct 2018',
-  tools: 'Vue or jQuery, php, Apache, Ubuntu',
+  tools: 'Vue or jQuery, PHP, MySQL, Apache, Ubuntu',
   bullets: [
     'Ran a small web development business as owner-operator'
   ]

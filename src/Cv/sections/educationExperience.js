@@ -23,7 +23,7 @@ const apu = {
   title: ['Department Chair', 'APU International School'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
   dates: 'Academic Year 2011 - 12',
-  bullets: ['Managed social studies and language arts departments']
+  bullets: ['Managed Social Studies and Language Arts departments']
 } 
 
 const ais = {
@@ -31,7 +31,7 @@ const ais = {
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
   dates: 'Academic Years 2007 - 11',
   bullets: [
-    'Taught advanced history to high school students',
+    'Taught advanced History to high school students',
     'Played a significant role in the development of the school'
   ]
 }
