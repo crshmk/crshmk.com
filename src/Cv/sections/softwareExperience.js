@@ -1,3 +1,5 @@
+import React from 'react'
+
 const current = {
   title: ['Web Application Developer'],
   subhead: ['', 'Nha Trang, Vietnam'],
@@ -24,8 +26,9 @@ const apple = {
   dates: 'Oct 2018 - Aug 2021',
   tools: 'React, Express, GraphQL',
   bullets: [
-    'Led front end development of successful internal application from MVP through launch and growth',
-    'Mentored junior developers new to Javascript'
+    <span>Led front end development of successful internal application from MVP through launch and growth <span className="bullet-date">(10/2018 - 1/2021)</span></span>,
+    'Mentored junior developers new to Javascript',
+    <span>Maintained internal website <span className="bullet-date">(5/2021 - 8/2021)</span></span>
   ]
 }
 
