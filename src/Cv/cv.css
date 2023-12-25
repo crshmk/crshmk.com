@@ -54,7 +54,6 @@
 
 .bullet {
   position: relative;
-  padding-left: 16px;
   max-width: 68%;
 }
 .bullet:before {
@@ -66,6 +65,15 @@
   height: 5px;
   border-radius: 50%;
   background-color: #121212;
+}
+
+.tools {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bullet, .tools {
+  padding-left: 16px;
 }
 
 .cv p.phone-place {
