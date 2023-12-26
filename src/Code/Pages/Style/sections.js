@@ -5,7 +5,7 @@ import GithubIcon from 'src/Icons/GithubIcon'
 
 const urlToUtilLibrary = 'https://github.com/crshmk/utils'
 const urlToPhp = 'https://github.com/crshmk/vue-php/blob/master/private/Http/Request.php'
-const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/main/src'
+const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/master/src'
 
 const UtilLibrary = () => (
   <>
