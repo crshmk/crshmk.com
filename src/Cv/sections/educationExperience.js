@@ -1,3 +1,4 @@
+/* itemized experience
 const auv = {
   title: ['Associate Professor', 'American University of Vietnam'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
@@ -44,11 +45,25 @@ const english = {
     'Taught English to fund world travel'
   ]
 }
+*/
 
+const aggregate = {
+  title: ['Administrator and Teacher', 'Various international schools'],
+  subhead: ['', 'Vietnam, Myanmar, Nepal, Saudi Arabia, South Korea'],
+  dates: '2004 - 2014',
+  bullets: [
+    'Led departments',
+    'Hired, trained, and evaluated staff',
+    'Created and maintained curricula',
+    'Represented organizations publicly',
+    'Created and taught undergraduate IT elective'
+  ]
+}
 
 const educationExperience = {
   title: 'Education Experience',
-  items: [auv, aramco, ilbc, apu, ais, english]
+  //items: [auv, aramco, ilbc, apu, ais, english]
+  items: [aggregate]
 }
 
 export default educationExperience
