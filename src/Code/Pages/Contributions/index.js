@@ -25,7 +25,7 @@ const Contributions = () => {
   const className = makePageClassNames('contributions')
   return (
     <div className={className}>
-      <h2>I contribute to open source projects when fixing the source is the best solution.</h2>
+      <h2>I contribute to open source projects when fixing the source is the best solution</h2>
         {items}
     </div>
   )
