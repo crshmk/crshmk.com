@@ -1,4 +1,3 @@
-/* itemized experience
 const auv = {
   title: ['Associate Professor', 'American University of Vietnam'],
   subhead: ['', 'Ho Chi Minh City, Vietnam'],
@@ -7,7 +6,7 @@ const auv = {
 }
 
 const aramco = {
-  title: ['Trainer (contractor)', 'Saudi Aramco'],
+  title: ['Trainer', 'Saudi Aramco (contractor)'],
   subhead: ['', 'Dhahran, Saudi Arabia'],
   dates: 'Academic Year 2013 - 14',
   bullets: ['Provided professional training for new hires']
@@ -33,37 +32,15 @@ const ais = {
   dates: 'Academic Years 2007 - 11',
   bullets: [
     'Taught advanced History to high school students',
-    'Played a significant role in the development of the school'
-  ]
-}
-
-const english = {
-  title: ['English Teacher, Volunteer'],
-  subhead: ['', 'South Korea and Nepal'],
-  dates: 'Jan 2004 - May 07',
-  bullets: [
-    'Taught English to fund world travel'
-  ]
-}
-*/
-
-const aggregate = {
-  title: ['Administrator and Teacher', 'Various international schools'],
-  subhead: ['', 'Vietnam, Myanmar, Nepal, Saudi Arabia, South Korea'],
-  dates: '2004 - 2014',
-  bullets: [
-    'Led departments',
-    'Hired, trained, and evaluated staff',
-    'Created and maintained curricula',
-    'Represented organizations publicly',
-    'Created and taught undergraduate IT elective'
+    'Created International Baccalaureate History program',
+    'Coached high school soccer team',
+    'Collaborated with founding team to grow enrollment from 36 students to 850'
   ]
 }
 
 const educationExperience = {
   title: 'Education Experience',
-  //items: [auv, aramco, ilbc, apu, ais, english]
-  items: [aggregate]
+  items: [auv, aramco, ilbc, apu, ais]
 }
 
 export default educationExperience
