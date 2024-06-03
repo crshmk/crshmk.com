@@ -6,7 +6,7 @@ const auv = {
 }
 
 const aramco = {
-  title: ['Trainer (contractor)', 'Saudi Aramco'],
+  title: ['Trainer', 'Saudi Aramco (contractor)'],
   subhead: ['', 'Dhahran, Saudi Arabia'],
   dates: 'Academic Year 2013 - 14',
   bullets: ['Provided professional training for new hires']
@@ -32,23 +32,15 @@ const ais = {
   dates: 'Academic Years 2007 - 11',
   bullets: [
     'Taught advanced History to high school students',
-    'Played a significant role in the development of the school'
+    'Created International Baccalaureate History program',
+    'Coached high school soccer team',
+    'Collaborated with founding team to grow enrollment from 36 students to 850'
   ]
 }
-
-const english = {
-  title: ['English Teacher, Volunteer'],
-  subhead: ['', 'South Korea and Nepal'],
-  dates: 'Jan 2004 - May 07',
-  bullets: [
-    'Taught English to fund world travel'
-  ]
-}
-
 
 const educationExperience = {
   title: 'Education Experience',
-  items: [auv, aramco, ilbc, apu, ais, english]
+  items: [auv, aramco, ilbc, apu, ais]
 }
 
 export default educationExperience
