@@ -2,7 +2,7 @@ import React from 'react'
 
 export default [
   {
-    header: 'I have created or contributed to business applications currently in production using',
+    header: 'I have created or maintained business applications currently in production using',
     items: [
       'React',
       'Vue',
@@ -10,7 +10,10 @@ export default [
       'PHP',
       'GraphQL',
       'MySQL',
-      'MongoDB'
+      'MongoDB',
+      'Apache',
+      'Nginx',
+      'Ubuntu',
     ]
   },
   {
@@ -38,8 +41,7 @@ export default [
     header: 'I also like',
     items: [
       <a href="https://github.com/crshmk/neovim-config" target="_blank">Neovim</a>,
-      <a href="https://github.com/crshmk/electron-react-menu-bar" target="_blank">Electron</a>,
-      <a href="https://ramdajs.com/" target="_blank">Ramda</a>
+      <a href="https://github.com/crshmk/electron-react-menu-bar" target="_blank">Electron</a>
     ]
   }
 ]
