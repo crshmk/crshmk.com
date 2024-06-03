@@ -38,12 +38,12 @@ const ReactItem = () => (
 
 export default [
   {
-    header: 'Declarative, functional, vanilla Javascript',
+    header: 'Declarative, functional Javascript',
     items: [<UtilLibrary />]
   },
   {
     header: 'OOP',
-    items: [<PhpItem />, <TsItem />, 'with large enterprise teams after TS took over the front end']
+    items: [<PhpItem />, 'with large enterprise projects after Typescript became ubiquitous']
   },
   {
     header: 'A decade of elegant state design',
