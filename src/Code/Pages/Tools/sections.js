@@ -2,15 +2,15 @@ import React from 'react'
 
 export default [
   {
-    header: 'I have written business applications currently in production using',
+    header: 'I have created or contributed to business applications currently in production using',
     items: [
       'React',
       'Vue',
-      'Typescript',
       'Node / Express',
       'PHP',
       'GraphQL',
-      'MySQL'
+      'MySQL',
+      'MongoDB'
     ]
   },
   {
@@ -31,21 +31,15 @@ export default [
     ]
   },
   {
-    header: 'The first package I install in a project is',
-    items: [<a href="https://ramdajs.com/" target="_blank">Ramda</a>]
-  },
-  {
-    header: 'I have made small projects with',
-    items: [
-      'Angular 2+',
-      <a href="https://github.com/crshmk/electron-react-menu-bar" target="_blank">Electron</a>,
-      'Ionic',
-      'Laravel',
-      'MongoDB'
-    ]
-  },
-  {
-    header: 'In the past, I used',
+    header: 'I have been around since',
     items: ['jQuery']
+  },
+  {
+    header: 'I also like',
+    items: [
+      <a href="https://github.com/crshmk/neovim-config" target="_blank">Neovim</a>,
+      <a href="https://github.com/crshmk/electron-react-menu-bar" target="_blank">Electron</a>,
+      <a href="https://ramdajs.com/" target="_blank">Ramda</a>
+    ]
   }
 ]
