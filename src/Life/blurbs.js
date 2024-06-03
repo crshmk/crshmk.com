@@ -4,8 +4,11 @@ const softwareCareer = "In 2014 I transitioned from education to software. I ini
 
 const apple = "In 2018 I moved back to the US and took a contract position as a Software Engineer at Apple. When I arrived, there was a small proof of concept. When I left, we had a successful app in production with a large user base. I led the React development and the front end architecture. I also mentored junior developers new to web development. It was a very successful project. I've since continued as a full stack engineer."
 
+const now = "I recently moved back to the US after spending a couple years in Vietnam working on privately held applications. I'd like to find a smart, outgoing, proactive, engaged team with whom I could collaborate on a meaningful project."
+
 export default [
   edCareer,
   softwareCareer,
-  apple
+  apple,
+  now
 ]
