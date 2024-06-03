@@ -17,14 +17,14 @@ const UtilLibrary = () => (
 
 const PhpItem = () => (
   <>
-  My old PHP apps were heavily object oriented
+  with my old PHP apps
   <GithubIcon url={urlToPhp}/>
   </>
 )
 
 const TsItem = () => (
   <>
-  When memoization prevented the use of context, TS effectively clarified this prop drilling
+  when memoization prevents the use of context
   <GithubIcon url={urlToTs}/>
   </>
 )
@@ -38,12 +38,12 @@ const ReactItem = () => (
 
 export default [
   {
-    header: 'I prefer declarative, functional, vanilla Javascript',
+    header: 'Declarative, functional, vanilla Javascript',
     items: [<UtilLibrary />]
   },
   {
-    header: 'I also use OOP',
-    items: [<PhpItem />, <TsItem />]
+    header: 'OOP',
+    items: [<PhpItem />, <TsItem />, 'with large enterprise teams after TS took over the front end']
   },
   {
     header: 'A decade of elegant state design',
