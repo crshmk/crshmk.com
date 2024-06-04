@@ -6,18 +6,26 @@ import GithubIcon from 'src/Icons/GithubIcon'
 const urlToUtilLibrary = 'https://github.com/crshmk/utils'
 const urlToPhp = 'https://github.com/crshmk/vue-php/blob/master/private/Http/Request.php'
 const urlToThisRepo = 'https://github.com/crshmk/crshmk.com/tree/master/src'
+const urlToTs = 'https://github.com/crshmk/react-form'
 
 const UtilLibrary = () => (
   <>
-  small, composable functions
+  using small, composable functions
   <GithubIcon url={urlToUtilLibrary}/>
   </>
 )
 
 const PhpItem = () => (
   <>
-  when necessary
+  with my old PHP apps
   <GithubIcon url={urlToPhp}/>
+  </>
+)
+
+const TsItem = () => (
+  <>
+  when memoization prevents the use of context
+  <GithubIcon url={urlToTs}/>
   </>
 )
 
@@ -35,11 +43,11 @@ export default [
   },
   {
     header: 'OOP',
-    items: [<PhpItem />]
+    items: [<PhpItem />, 'with large enterprise projects after Typescript became ubiquitous']
   },
   {
-    header: 'State',
-    items: ['elegant state design']
+    header: 'A decade of elegant state design',
+    items: ['using many popular patterns']
   },
   {
     header: 'Small, clean React components',

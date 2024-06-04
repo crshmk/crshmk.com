@@ -1,6 +1,6 @@
 const med = {
   title: ['Master of Education (M.Ed.)', 'Secondary Education'],
-  subhead: ['The College of New Jersey'],
+  subhead: ['The College of New Jersey', 'Global Programs; Bangkok and Palma de Mallorca'],
   dates: '2012'
 }
 

@@ -4,7 +4,7 @@ const current = {
   title: ['Web Application Developer'],
   subhead: ['', 'Nha Trang, Vietnam'],
   dates: '2022 - present',
-  tools: 'React, Node / Express, MySQL, Nginx, Ubuntu',
+  tools: 'React, Node / Express, MySQL, MongoDB, Nginx, Ubuntu',
   bullets: [
     'Created various privately owned applications'
   ]
@@ -16,19 +16,20 @@ const ally = {
   dates: 'Sep 2021 - Mar 2022',
   tools: 'React',
   bullets: [
-    'Maintained a feature of ally.com'
+    'Maintained a feature of ally.com',
+    'Disliked job; left'
   ]
 }
 
 const apple = {
-  title: ['Software Engineer', 'Apple (on-site contractor)'],
+  title: ['Software Engineer', 'Apple (contractor)'],
   subhead: ['', 'Austin, Texas'],
   dates: 'Oct 2018 - Aug 2021',
   tools: 'React, Express, GraphQL',
   bullets: [
-    <span>Led front end development of successful internal application from MVP through launch and growth <span className="bullet-date">(10/2018 - 1/2021)</span></span>,
+    'Led front end development of successful internal application from MVP through launch and growth',
     'Mentored junior developers new to Javascript',
-    <span>Maintained internal website <span className="bullet-date">(5/2021 - 8/2021)</span></span>
+    'Maintained internal website'
   ]
 }
 
