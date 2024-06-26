@@ -1,23 +1,22 @@
-import React from 'react'
-
 const current = {
-  title: ['Web Application Developer'],
-  subhead: ['', 'Nha Trang, Vietnam'],
-  dates: '2022 - present',
+  title: ['Manager, Software Engineer', 'Planet Telex LLC'],
+  subhead: ['Nha Trang, Vietnam and Austin, TX, USA'],
+  dates: 'Mar 2022 - present',
   tools: 'React, Node / Express, MySQL, MongoDB, Nginx, Ubuntu',
   bullets: [
-    'Created various privately owned applications'
+    'Created the entire stack for privately owned web applications',
+    'Collaborated with marketing to launch and grow sites',
+    'Maintained applications that support operations at a factory'
   ]
 }
 
 const ally = {
-  title: ['Senior Javascript Engineer', 'Ally Financial'],
+  title: ['Senior Javascript Developer', 'Ally Bank'],
   subhead: ['', 'remote'],
   dates: 'Sep 2021 - Mar 2022',
   tools: 'React',
   bullets: [
     'Maintained a feature of ally.com',
-    'Disliked job; left'
   ]
 }
 
