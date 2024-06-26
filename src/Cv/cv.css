@@ -2,7 +2,12 @@
   display: none;
 }
 .is-print-cv .cv p.print {
+  position: absolute;
   display: block;
+  top: 11px;
+  right: 50px;
+  z-index: 9;
+
 }
 
 .print a {
@@ -61,6 +66,9 @@
   justify-content: flex-end;
   margin-right: 35px;
   font-size: 16px;
+}
+.is-print-cv .date {
+  margin-right: 0;
 }
 
 .bullet {
