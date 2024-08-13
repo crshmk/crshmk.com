@@ -18,11 +18,11 @@ const routes = map(makeRoute, pages)
 const Routes = () => {
   const { hideMenu } = useMenu()
   return (
-    <Switch>
-      <div onClick={hideMenu}>
+    <div onClick={hideMenu}>
+      <Switch>
         {routes}
-      </div>
-    </Switch>
+      </Switch>
+    </div>
   )
 } 
 
