@@ -10,22 +10,19 @@ const usePath = () => {
   return tail(pathname) || 'home'
 }
 
-const isPrint = false
-
 const Header = () => {
   const path = usePath()
+
+  const emailAddress = path === 'cv' ? '' : 'hello@crshmk.com'
 
   return (
     <div className="app-header">
       <ul>
         <li>
           <span className="header-name hide-menu-active">Chris Hammock</span> 
-
-          {!isPrint && <span className="header-current-page after before">{path}</span>}
+          <span className="header-current-page after before">{path}</span>
         </li>
-        {isPrint && <li className="header-name hide-menu-active">USA / Vietnam</li>} 
-
-        <li className="header-email hide-menu-active">hello@crshmk.com</li>
+        <li className="header-email hide-menu-active">{emailAddress}</li>
       </ul>
     </div>
   )
