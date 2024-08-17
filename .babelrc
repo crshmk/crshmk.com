@@ -6,6 +6,7 @@
       "alias": {
         "App": "./src/App",
         "Icons": "./src/Icons",
+        "images": "./src/assets/images",
         "src": "./src",
         "useMenu": "./src/Menu/useMenu"
       }

@@ -8,25 +8,11 @@
   background-color: #fafafa;
   z-index: 1;
 }
-.is-print-cv .app-header {
-  top: 17px;
-}
 
 .app-header ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.is-print-cv .app-header ul {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.is-print-cv .app-header ul li {
-  line-height: 37px;
-}
-#app > div.is-print-cv {
-  margin-top: 180px;
-  padding: 0 50px;
 }
 
 .app-header ul li {

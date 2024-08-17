@@ -12,7 +12,6 @@ import Contact from '../Contact'
 import Cv from '../Cv'
 import Home from '../Home'
 import Life from '../Life'
-import Skills from '../Skills'
 
 import { concat, map, mergeDeepRight } from 'ramda'
 
@@ -25,10 +24,6 @@ const pages = [
   {
     label: 'cv',
     Component: Cv
-  },
-  {
-    label: 'skills',
-    Component: Skills
   },
   {
     label: 'code',
