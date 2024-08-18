@@ -1,0 +1,162 @@
+.cv-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  margin-top: 77px;
+}
+
+.page.cv img {
+  width: 165px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project > div {
+  flex: 1;
+  display: flex;
+}
+
+.project > div.project-img {
+  flex: 0 0 30%;
+}
+
+.cv-item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+}
+
+.page.cv .note {
+  font-size: 16px;
+  max-width: 80%;
+}
+
+.cv-section {
+  position: relative;
+  margin-bottom: 27px;
+}
+
+.page.cv .cv-section h2 {
+  margin-bottom: 37px;
+}
+
+.cv-section-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.cv-section-content.before::before {
+  height: 100%;
+  top: -17px;
+  left: -17px;
+}
+
+.cv-section-content.after::after {
+  top: -17px;
+  left: -17px;
+  width: 100px;
+  height: 1px;
+  box-shadow: 1px 0px 0px 1px rgb(0,0,0,.1);
+}
+
+.page.cv p.cv-section-overview {
+  font-size: 16px;
+  max-width: 80%;
+}
+
+.cv-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cv-contacts p {
+  display: flex;
+  gap: 17px;
+}
+
+/* label and svg */
+.cv-contacts p span {
+  display: flex;
+  align-items: center;
+}
+
+/* shim github icon to avoid a new global strategy */
+.cv-contacts p:nth-of-type(3) span:nth-of-type(2) {
+  position: relative;
+  left: 3px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .page.cv {
+    margin-left: 27px;
+  }
+
+  .project {
+    gap: 17px;
+  }
+
+  .project > div.project-img {
+    flex: 0 0 165px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .cv-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7px;
+  }
+  .cv-contacts {
+    flex: 0 0 auto;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .cv-header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 27px;
+  }
+
+  .cv-contacts p {
+    justify-content: flex-start;
+  }
+
+  .cv-contacts p span:nth-of-type(1) {
+     order: 2
+  }
+  .cv-contacts p span:nth-of-type(2) {
+    order: 1
+  }
+
+  .cv .github {
+    margin-left: 0;
+  }
+
+  .cv-contacts p:nth-of-type(3) span:nth-of-type(2) {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page.cv {
+    margin-left: 7px;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .project > div.project-img {
+    flex: 1;
+  }
+}

@@ -14,10 +14,6 @@
   z-index: -1;
 }
 
-.is-print-cv .menu-btn {
-  display: none;
-}
-
 @media only screen and (max-width: 600px) {
   .menu-btn {
     transform: none;

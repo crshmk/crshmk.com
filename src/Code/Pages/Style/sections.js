@@ -38,7 +38,7 @@ const ReactItem = () => (
 
 export default [
   {
-    header: 'Declarative, functional Javascript',
+    header: 'Declarative, functional JavaScript',
     items: [<UtilLibrary />]
   },
   {
