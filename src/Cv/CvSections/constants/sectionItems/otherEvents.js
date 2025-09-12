@@ -15,7 +15,7 @@ const otherEvents = [
     bullets: [
       'Wrote a full curriculum for a small startup school',
     ],
-    note: 'This school has since transformed its business model; a new school took our name.'
+    note: 'This school has since transformed its business model; a new school took its name.'
   },
   {
     title: 'Representative, Asia-Pacific International Baccalaureate Conference',

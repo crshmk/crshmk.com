@@ -1,7 +1,7 @@
 import React from 'react'
 
 import CvItem from './CvItem'
-import CvProjectItem from './CvProjectItem'
+import CvProjectItem from './CVProjectItem'
 
 const isProjectItem = cvItem => 
   typeof cvItem.title !== 'string'

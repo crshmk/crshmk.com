@@ -26,7 +26,7 @@ const educationExperience = [
     bullets: [
       'Managed curricula for a university prep program',
     ],
-    note: 'I moved to Yangon with my fiancée at the time when she opened a logistics company.'
+    note: 'I moved to Yangon with my fiancée while she opened a logistics company.'
   },
   {
     title: 'Department Chair, APU International School',

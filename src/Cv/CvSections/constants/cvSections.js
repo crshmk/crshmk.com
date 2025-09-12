@@ -15,7 +15,7 @@ const cvSections = [
   },
   {
     header: 'Previous Career - Administrator and Teacher at International Schools',
-    overview: 'I traveled to over 40 countries and lived in a few. I was able to do this by working as a teacher and administrator in international schools. Contracts at international schools are normally for one or two years. Most positions span an academic year between summers.',
+    overview: 'I traveled to over 40 countries and lived in a few. I was able to do this by working as a high school teacher and administrator in international schools. Contracts at international schools are normally for one or two years. Most positions span an academic year between summers.',
     items: educationExperience
   },
   {

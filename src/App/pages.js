@@ -12,10 +12,11 @@ import Contact from '../Contact'
 import Cv from '../Cv'
 import Home from '../Home'
 import Life from '../Life'
+import MenuVNProject from '../Projects/MenuVN'
 
 import { concat, map, mergeDeepRight } from 'ramda'
 
-const pages = [
+const pagesInMenu = [
   {
     path: '/',
     label: 'home',
@@ -39,6 +40,15 @@ const pages = [
   }
 ]
 
+const pagesNotInMenu = [
+    {
+    path: '/projects/menuvn',
+    Component: MenuVNProject
+  }
+]
+
+export const allRoutes = pagesInMenu.concat(pagesNotInMenu)
+
 // e.g. create path '/life' from label 'life' 
 const makePathFromLabel = concat('/')
 
@@ -47,4 +57,5 @@ const addPaths = map(page => {
   return mergeDeepRight(page, {path})
 })
 
-export default addPaths(pages)
+export default addPaths(pagesInMenu)
+

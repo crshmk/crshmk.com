@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ExternalLink from '../../ExternalLink'
+import ExternalLink from 'src/CV/ExternalLink'
 
 const ContactItem = ({ contactItem }) => {
   const { Icon, label, url } = contactItem 

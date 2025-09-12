@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
-import pages from './pages'
+import allRoutes from './pages'
 
 import { map } from 'ramda'
 
@@ -13,7 +13,7 @@ const makeRoute = ({ Component, path }) => (
   </Route>
 )
 
-const routes = map(makeRoute, pages)
+const routes = map(makeRoute, allRoutes)
 
 const Routes = () => {
   const { hideMenu } = useMenu()

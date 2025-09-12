@@ -1,8 +1,17 @@
-import teflpointImg from 'src/assets/Images/teflpoint-sm.png'
-import cvistImg from 'src/assets/Images/cvist-sm.png'
-import ntbeachImg from 'src/assets/Images/ntbeach.png'
+import teflpointImg from 'src/assets/images/teflpoint-sm.png'
+import cvistImg from 'src/assets/images/menu.jpeg'
+import ntbeachImg from 'src/assets/images/ntbeach.png'
 
 const recentProjects = [
+    {
+    title: {
+      label: 'MenuVN',
+      description: 'Food Ordering App and Associated Software',
+      url: '/projects/menuvn'
+    },
+    stack: 'React / React Native / Express / MongoDB / Nginx',
+    img: cvistImg
+  },
   {
     title: { 
       label: 'TEFLPOINT.COM', 
@@ -11,15 +20,6 @@ const recentProjects = [
     },
     stack: 'React / Express / MySQL / Apache',
     img: teflpointImg
-  },
-  {
-    title: {
-      label: 'CVIST.COM',
-      description: 'Resume Webpage Builder (Currently Beta)',
-      url: 'https://www.cvist.com'
-    },
-    stack: 'React / Express / OpenAI / MongoDB / Nginx',
-    img: cvistImg
   },
   {
     title: {

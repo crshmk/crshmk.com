@@ -23,6 +23,10 @@
   flex: 0 0 30%;
 }
 
+.project .link {
+  color: #08c;
+}
+
 .cv-item {
   display: flex;
   flex-direction: column;
