@@ -1,8 +1,33 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react'
+import { createRoot } from 'react-dom/client'
 
-import App from 'App'
+import App from '@components/App'
 
-const root = document.getElementById("app")
+const container = document.getElementById("app")
 
-ReactDOM.render(<App />, root)
+const root = createRoot(container)
+
+const renderApp = () => root.render(<App  />)
+
+if(!!document.fonts?.ready) {
+
+  let hasLoaded = false 
+
+  setTimeout(() => {
+    if(!hasLoaded) {
+      hasLoaded = true 
+      renderApp()
+    }
+  }, 3000)
+
+  // @ts-ignore
+  document.fonts.ready.then((fontFaceSet) => {
+    if(!hasLoaded) {
+      hasLoaded = true
+      renderApp()
+    }
+    hasLoaded = true
+  })
+} else {
+  renderApp()
+}

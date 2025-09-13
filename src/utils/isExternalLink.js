@@ -1,3 +1,5 @@
 import { startsWith } from 'ramda'
 
-export const isExternalLink = startsWith('http')
+const isExternalLink = startsWith('http')
+
+export default isExternalLink

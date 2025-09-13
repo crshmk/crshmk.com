@@ -16,3 +16,5 @@ export const onKey = mapping => e => {
   if(isNil(cb)) return 
   cb(e)
 }
+
+export default onKey

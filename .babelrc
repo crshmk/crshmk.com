@@ -4,11 +4,13 @@
     ["module-resolver", {
       "root": ["./"],
       "alias": {
-        "App": "./src/App",
-        "Icons": "./src/Icons",
-        "images": "./src/assets/images",
-        "src": "./src",
-        "useMenu": "./src/Menu/useMenu"
+        "@components": "./src/components",
+        "@constants": "./src/constants",
+        "@icons": "./src/assets/icons",
+        "@images": "./src/assets/images",
+        "@src": "./src",
+        "@store": "./src/store",
+        "@utils": "./src/utils"
       }
     }]
   ]
