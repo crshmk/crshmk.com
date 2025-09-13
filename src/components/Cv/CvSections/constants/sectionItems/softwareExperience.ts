@@ -17,7 +17,7 @@ const softwareExperience: CvItem[] = [
       'Led front end development of successful internal application from MVP through launch and growth',
       'Mentored junior developers new to JavaScript'
     ],
-    note: "After my manager was promoted with the success of the app, the leadership of the front end was handed to a full time employee."
+    note: "After my manager was promoted with the success of the app, the leadership of the front end was handed to a full-time Apple employee."
   },
   {
     title: 'Software Engineer, Rapexco',
@@ -25,7 +25,7 @@ const softwareExperience: CvItem[] = [
     location: 'Nha Trang, Vietnam',
     stack: 'Vue / PHP / MySQL / Ubuntu',
     bullets: [
-      'Created B2B catalogue and CMS for a furniture factory moving to in-house design',
+      'Created B2B catalog and CMS for a furniture factory moving to in-house design',
       'Created internal applications to aid operations'
     ],
     note: "Since the project was completed, I have continued to maintain it."

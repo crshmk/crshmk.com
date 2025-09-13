@@ -6,6 +6,9 @@
   margin: 35px 0;
   line-height: 26px;
 }
+.life a {
+  color: #08c;
+}
 
 @media only screen and (max-width: 800px) {
   .life {
