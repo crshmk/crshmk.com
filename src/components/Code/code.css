@@ -12,7 +12,6 @@
 
 .code a {
   color: #08c;
-  margin-right: 10px;
 }
 
 .code p {
@@ -55,6 +54,15 @@
   height: 3px;
   background-color: black;
   border-radius: 50%;
+}
+
+.code .bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57px;
+  background-color: #fafafa;
 }
 
 @media only screen and (max-width: 900px) {

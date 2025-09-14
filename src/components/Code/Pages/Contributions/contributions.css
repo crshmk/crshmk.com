@@ -13,5 +13,27 @@
   height: 3px;
   width: 3px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #111;
 } 
+
+
+.code-content h3 {
+  position: relative;
+  padding-left: 11px;
+  font-weight: 400;
+}
+
+.code-content h3.npm-item {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding-left: 11px;
+}
+
+.code-content h3::before {
+    top: 11px;
+    left: 0;
+    width: 3px;
+    height: 3px;
+    border-radius: 999px;
+}

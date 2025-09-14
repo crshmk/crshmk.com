@@ -6,11 +6,12 @@ import makePageClassNames from '../makePageClassNames'
 
 import { contributions } from './sections'
 
+import NpmIcon from '@icons/NpmIcon'
+
 const Contribution = ({ item }) => {
-  const [packageName, description, prUrl] = item
+  const [_, description, prUrl ] = item
   return (
     <div className="contribution-item">
-      <p>{''}</p>
       <p><a href={prUrl} target="_blank">{description}</a></p>
     </div>
   )
@@ -25,11 +26,9 @@ const Contributions = () => {
   const className = makePageClassNames('contributions')
   return (
     <div className={className}>
-      <h2>I make time for open source when</h2>
-      <h3>npm link becomes painful</h3>
-      <p></p>
-      <h3>fixing the source is better than the workaround</h3>
-        {items}
+      <h2>I budget a small amount of time for open source when</h2>
+      <h3 className="before npm-item"><span>npm link gets painful</span> <NpmIcon /></h3>
+      <h3 className="before">fixing the source is easier than the workaround, like some <a href="https://github.com/theKashey/react-focus-lock/pull/182" target="_blank">accessibility</a>  or <a href="https://github.com/ramda/ramda/pull/3382" target="_blank">webpack</a>  issue.</h3>
     </div>
   )
 } 
