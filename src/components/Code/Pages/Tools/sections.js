@@ -6,6 +6,8 @@ export default [
     items: [
       'React',
       'Vue',
+      'TypeScript',
+      'Vanilla JavaScript',
       'Node / Express',
       'PHP',
       'GraphQL',
@@ -23,15 +25,6 @@ export default [
   {
     header: 'I usually test with',
     items: ['Jest', 'React Testing Library']
-  },
-  {
-    header: 'I usually build with',
-    items: [
-      'Webpack',
-      'Parcel',
-      'Browserify',
-      'Rollup'
-    ]
   },
   {
     header: 'I have been around since',

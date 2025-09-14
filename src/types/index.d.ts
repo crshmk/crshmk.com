@@ -69,6 +69,8 @@ type Primitive = string | number | boolean
  */ 
 type StateSetter<T> = React.Dispatch<React.SetStateAction<T>>
 
+type TupleElement<T extends readonly unknown[]> = T[number]
+
 /**
  * @example 
  *   React.FC<WithChildren<PropTypes>>

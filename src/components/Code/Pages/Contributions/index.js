@@ -10,7 +10,7 @@ const Contribution = ({ item }) => {
   const [packageName, description, prUrl] = item
   return (
     <div className="contribution-item">
-      <p>{packageName}</p>
+      <p>{''}</p>
       <p><a href={prUrl} target="_blank">{description}</a></p>
     </div>
   )
@@ -25,7 +25,10 @@ const Contributions = () => {
   const className = makePageClassNames('contributions')
   return (
     <div className={className}>
-      <h2>I contribute to open source projects when fixing the source is the best solution</h2>
+      <h2>I make time for open source when</h2>
+      <h3>npm link becomes painful</h3>
+      <p></p>
+      <h3>fixing the source is better than the workaround</h3>
         {items}
     </div>
   )

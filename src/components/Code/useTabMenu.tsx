@@ -1,10 +1,15 @@
 import React, { createContext, useContext, useState } from 'react'
 
-const TabMenuContext = createContext()
+const TabMenuContext = createContext({
+  activeTab: 'tools', 
+  setActiveTab: (activeTab: CodePageTabOption) => {}, 
+  hoveredTab: '', 
+  setHoveredTab: (hoveredTab: CodePageTabOption | '') => {}
+})
 const useTabMenu = () => useContext(TabMenuContext)
 
 export const TabMenuProvider = props => {
-  const [activeTab, setActiveTab] = useState('style')
+  const [activeTab, setActiveTab] = useState('tools')
   const [hoveredTab, setHoveredTab] = useState('')
 
   const ctx = { activeTab, setActiveTab, hoveredTab, setHoveredTab }

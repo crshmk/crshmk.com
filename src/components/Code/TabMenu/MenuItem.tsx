@@ -4,12 +4,12 @@ import './tab-menu.css'
 
 import useTabMenu from '@src/components/Code/useTabMenu'
 
-const makeTabClassNames = tabName => {
+const makeTabClassNames = (tabName: CodePageTabOption) => {
   const { activeTab } = useTabMenu()
   return 'code-menu-item before ' + (activeTab === tabName ? ' tab-active' : '')
 }
 
-const MenuItem = ({tabName}) => {
+const MenuItem = ({ tabName }: { tabName: CodePageTabOption }) => {
   const { setActiveTab, setHoveredTab } = useTabMenu()
   const className = makeTabClassNames(tabName)
   return (
