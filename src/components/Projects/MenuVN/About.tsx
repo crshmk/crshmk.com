@@ -2,9 +2,13 @@ import React from 'react'
 
 import content from './content'
 
+import menuPageImg from '@src/assets/images/ngon-lg.jpg'
+
 const About = () => (
   <div className="mvn-about">
-    <h3>About this project</h3>
+    <div>
+      <img src={menuPageImg} />
+    </div>
     <p>{content.header}</p>
   </div>
 )

@@ -10,7 +10,7 @@ import Status from './Status'
 
 const MenuVN = () => {
   return (
-    <div className="page projects">
+    <div className="page projects hide-menu-active">
       <Header />
       <About />   
       <AppItems />

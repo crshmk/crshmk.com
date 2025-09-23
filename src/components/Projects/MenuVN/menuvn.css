@@ -1,6 +1,56 @@
+.page.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  padding-bottom: 77px;
+}
+
+.page.projects P,
+.page.projects li {
+  font-size: 17px;
+}
+
+.page.projects .header {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
 .page.projects .header h2,
 .page.projects .header p {
   text-align: center;
+}
+
+.page.projects .header h2 {
+  margin: 0;
+}
+
+.page.projects .header p {
+  font-size: 17px;
+}
+
+.mvn-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 37px;
+}
+
+.mvn-about p {
+  font-size: 17px;
+}
+
+.mvn-about p {
+  flex: 1;
+}
+
+.mvn-about > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.mvn-about img {
+  max-width: 400px;
 }
 
 .mvn-items {
@@ -9,11 +59,17 @@
 }
 
 .mvn-items.after::after {
-      width: 100%;
-    background-color: black;
-    height: 1px;
-     bottom: 3px; 
-    left: 0; 
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  bottom: 3px; 
+  left: 0; 
+}
+
+.mvn-items ul li {
+  display: flex;
+  align-items: center;
+  gap: 11px;
 }
 
 .mvn-project li.feature {
@@ -28,4 +84,24 @@
   border-radius: 999px;
   top: 15px;
   left: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .mvn-about {
+    flex-direction: column;
+  }
+  .mvn-about p {
+    margin: 0 57px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mvn-about img {
+    max-width: 100%;
+  }
+
+  .mvn-about p {
+    margin: 0;
+  }
 }

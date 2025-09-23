@@ -20,15 +20,15 @@ const content: Content = {
     'A restaurateur in Vietnam asked me to create a software platform for a food ordering app. He had successfully launched such a thing in Saigon before the pandemic restrictions, but authorities closed his business as lockdowns intensified. Because he retains relationships with the former restaurants and initial market research signaled great interest, I found this project attractive.',
   apps: [
     {
-      label: 'end user facing app to place food orders',
+      label: 'end user app to place food orders',
       Icon: Wifi,
     },
     {
-      label: 'restaurant dashboard to manage their account and live orders',
+      label: 'restaurant dashboard to manage account, menu, and live orders',
       Icon: Wifi,
     },
     {
-      label: 'phone app for restaurants to manage incoming orders',
+      label: 'phone app for restaurants to manage live orders',
       Icon: Smartphone,
     },
     {
@@ -54,9 +54,7 @@ const content: Content = {
         'WebSockets for order chat with restaurant',
         'payments with credit cards or bank transfer',
         'searching and filtering',
-        'customer accounts with multiple addresses for quick delivery updates',
-        'customer accounts with past orders and easy reordering',
-        'customer accounts with favorite restaurants',
+        'customer accounts with multiple addresses for quick delivery updates, past orders and easy reordering, favorites, etc.',
         'English and Vietnamese languages',
       ],
     },
@@ -93,7 +91,7 @@ const content: Content = {
       ],
     },
   ],
-  status: 'The software is built. The management team in Vietnam is waiting for licenses to provide e-commerce and payment, and for other government approvals.'
+  status: 'The management team in Vietnam is waiting for licenses to provide e-commerce and payment, and for other government approvals. A staging environment is up if you want to see it.'
 }
 
 export default content
