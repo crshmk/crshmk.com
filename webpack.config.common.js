@@ -12,7 +12,7 @@ module.exports = {
     assetModuleFilename: '[name][ext]',
     clean: true,
     filename: '[name].[contenthash].bundle.js',
-    path: resolve('dist/web'),
+    path: resolve('dist'),
     publicPath: '/'
   },
   module: {
