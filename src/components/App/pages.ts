@@ -48,5 +48,5 @@ const addPaths: (pages: Partial<PageRoute>[]) => PageRoute[] = map(page => {
   return mergeDeepRight(page, {path})
 })
 
-export default addPaths(pagesInMenu)
+export default addPaths(allRoutes)
 

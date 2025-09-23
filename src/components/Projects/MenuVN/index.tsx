@@ -1,11 +1,21 @@
 import React from 'react'
 
-import '../projects.css'
+import './menuvn.css'
+
+import About from './About'
+import AppItems from './AppItems'
+import Header from './Header'
+import MenuVNProjects from './MenuVNProjects'
+import Status from './Status'
 
 const MenuVN = () => {
   return (
-    <div className="projects">
-      <p>menuvn</p>
+    <div className="page projects">
+      <Header />
+      <About />   
+      <AppItems />
+      <MenuVNProjects />
+      <Status />
     </div>
   )
 }

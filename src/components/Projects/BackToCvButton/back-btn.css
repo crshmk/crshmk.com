@@ -1,0 +1,15 @@
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 17px;
+    max-height: 27px;
+    padding: 3px 7px;
+
+  border: 1px solid black;
+  cursor: pointer;
+  transition: border .2s ease;
+}
+
+.back-btn:hover {
+  border: 1px solid transparent;
+}

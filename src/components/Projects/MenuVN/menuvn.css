@@ -1,0 +1,31 @@
+.page.projects .header h2,
+.page.projects .header p {
+  text-align: center;
+}
+
+.mvn-items {
+  position: relative;
+  padding-bottom: 17px;
+}
+
+.mvn-items.after::after {
+      width: 100%;
+    background-color: black;
+    height: 1px;
+     bottom: 3px; 
+    left: 0; 
+}
+
+.mvn-project li.feature {
+  position: relative;
+  padding-left: 17px;
+  font-size: 17px;
+}
+.mvn-project li.feature.before::before {
+  background-color: red;
+  width: 3px;
+  height: 3px;
+  border-radius: 999px;
+  top: 15px;
+  left: 0;
+}
