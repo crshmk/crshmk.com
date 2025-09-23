@@ -7,7 +7,8 @@ import { tail } from 'ramda'
 
 const usePath = (): string => {
   const { pathname } = useLocation()
-  return tail(pathname) || 'home'
+  const pageLabel = tail(pathname) || 'home'
+  return pageLabel.startsWith('projects') ? 'projects' : pageLabel 
 }
 
 const Header = () => {

@@ -1,6 +1,11 @@
 import React from 'react'
 
-export default [
+type ToolsSection = {
+  header: string 
+  items: React.ReactNode[]
+}
+
+const toolsSections: ToolsSection[] = [
   {
     header: 'I have created or maintained business applications currently in production using',
     items: [
@@ -38,3 +43,5 @@ export default [
     ]
   }
 ]
+
+export default toolsSections 

@@ -1,8 +1,8 @@
 import useTabMenu from '@src/components/Code/useTabMenu'
 
-const makePageClassNames = pageName => {
+const usePageClassNames = (pageName: CodePageTabOption) => {
   const { activeTab } = useTabMenu()
   return 'code-tab-page' + (activeTab === pageName ? ' active' : '')
 }
 
-export default makePageClassNames
+export default usePageClassNames

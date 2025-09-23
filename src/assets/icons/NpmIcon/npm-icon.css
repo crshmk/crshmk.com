@@ -1,0 +1,31 @@
+.npm {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: border .4s ease;
+}
+
+.npm:hover {
+  border: 2px solid transparent;
+}
+
+.npm rect {
+  fill: white;
+  transition: all .4s ease-in-out;
+}
+.npm:hover rect,
+ .npm:focus rect{
+  fill: #c12127;
+}
+
+.npm polygon {
+  fill: #111;
+  transition: all .4s ease-in-out;
+}
+
+.npm:hover polygon {
+  fill: #c12127;
+  fill: white;
+}
+  

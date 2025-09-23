@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  min-width: 320px;
   height: 50px;
   padding: 0 50px;
   background-color: #fafafa;
@@ -110,7 +111,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .header-current-page {
+  .app-header ul li span.header-current-page {
     display: none;
   }
 }

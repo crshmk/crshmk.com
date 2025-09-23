@@ -1,8 +1,8 @@
 import React from 'react'
 
-import makePageClassNames from '../makePageClassNames'
+import usePageClassNames from '../usePageClassNames'
 
-import sections from './sections'
+import sections from './toolsSections'
 
 const toolsSections = sections.map((section, i) => (
   <div key={i}>
@@ -14,7 +14,7 @@ const toolsSections = sections.map((section, i) => (
 ))
 
 const Tools = () => {
-  const className = makePageClassNames('tools')
+  const className = usePageClassNames('tools')
   return (
     <div className={className}>
       {toolsSections}
