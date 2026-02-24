@@ -6,3 +6,5 @@ dist/
 node_modules
 package-lock.json
 deploy.sh
+src/assets/videos/
+*.mp4

@@ -4,6 +4,7 @@ import Cv from '@components/Cv'
 import Home from '@components/Home'
 import Life from '@components/Life'
 import MenuVNProject from '@components/Projects/MenuVN'
+import Music from '@components/Music'
 
 import { concat, map, mergeDeepRight } from 'ramda'
 
@@ -32,9 +33,13 @@ const pagesInMenu: Partial<PageRoute>[] = [
 ]
 
 const pagesNotInMenu: PageRoute[] = [
-    {
+  {
     path: '/projects/menuvn',
     Component: MenuVNProject
+  },
+  {
+    path: '/music',
+    Component: Music
   }
 ]
 

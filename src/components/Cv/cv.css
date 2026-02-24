@@ -109,3 +109,24 @@
 .cv-contacts p {
   justify-content: space-between;
 }
+
+.cv-music {
+  position: relative;
+  display: inline-flex;
+}
+
+.cv-music.after::after {
+  height: 1px; 
+  width: 100%;
+  bottom:auto; 
+  top: -3px;
+}
+
+.page.cv .cv-music p {
+  display: block;
+  font-size: 14px;
+}
+
+.cv-music a {
+  color: #08C;
+}

@@ -1,0 +1,54 @@
+.music {
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  padding: 77px 27px;
+}
+
+.music h2 {
+  text-align: center; 
+}
+
+.music h4 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.music p {
+  font-size: 17px;
+}
+
+.music ul {
+  padding-left: 7px;
+}
+
+.music li {
+  position: relative;
+  font-size: 15px;
+  padding-left: 17px;
+}
+
+.music li.before::before {
+  height: 3px;
+  width: 3px;
+  left: 5px;
+  top: 11px;
+}
+
+.music .videos {
+  display: flex; 
+  gap: 27px;
+  flex-wrap: wrap;
+}
+
+.music .video {
+
+}
+
+.music video {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 3px 11px rgba(0,0,0,0.2);
+  max-width: 500px;
+}
