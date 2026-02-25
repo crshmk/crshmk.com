@@ -19,10 +19,6 @@ const pagesInMenu: Partial<PageRoute>[] = [
     Component: Cv
   },
   {
-    label: 'code',
-    Component: Code
-  },
-  {
     label: 'life',
     Component: Life
   },

@@ -15,12 +15,12 @@ const toolsSections: ToolsSection[] = [
       'Vanilla JavaScript',
       'Node / Express',
       'PHP',
+      'socket.io',
       'GraphQL',
       'MySQL',
       'MongoDB',
       'Apache',
-      'Nginx',
-      'Ubuntu',
+      'Nginx'
     ]
   },
   {
