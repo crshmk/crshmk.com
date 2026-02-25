@@ -5,6 +5,7 @@
 .life p {
   margin: 35px 0;
   line-height: 26px;
+  text-align: justify;
 }
 .life a {
   color: #08c;

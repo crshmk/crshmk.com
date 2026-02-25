@@ -5,7 +5,9 @@ const edCareer = "My first career was in private international education. I was 
 
 const softwareCareer = "In 2014 I transitioned from education to software. I initially worked as an independent freelancer. In 2016 a furniture factory hired me as a software engineer. I created a B2B catalog and a number of administrative tools to aid operations."
 
-const apple = "In 2018 I moved back to the US and took a contract position as a Software Engineer at Apple. As the only senior developer coding, I led the React development and the front end architecture. I also mentored junior developers new to web development. It was a very successful project; the initial concept became a robust production app with a large user base. My boss got a significant promotion. The app still runs at a subdomain of apple.com."
+const apple = "In 2018 I returned to the United States and worked as a Software Engineer contractor at Apple. I led frontend development of an internal React application from early concept through full production deployment. I also mentored junior developers new to web development. It was a very successful project; the initial concept became a robust production app with a large user base. The app still runs at a subdomain of apple.com."
+
+const afterApple = "Since then, I’ve continued to design and build modern, full-stack software platforms using JavaScript, React, and Node.js. These nclude SaaS applications, real-time systems, and commercial web applications."
 
 const now = [
   <span key="1">A series of independent projects from Vietnam followed. I'm finishing up a year-long</span>,
@@ -17,7 +19,7 @@ const blurbs: React.ReactNode[] = [
   edCareer,
   softwareCareer,
   apple,
-  now
+  afterApple
 ]
 
 export default blurbs
