@@ -2,6 +2,7 @@ type CvSection = {
   header: string
   items: CvItem[] | Project[]
   overview?: string
+  isAccordion?: boolean
 }
 
 type CvItem = {

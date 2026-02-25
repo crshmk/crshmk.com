@@ -1,9 +1,19 @@
-import teflpointImg from '@src/assets/images/teflpoint-sm.png'
+import colorbrainImg from '@src/assets/images/colorbrain.png'
 import cvistImg from '@src/assets/images/menu.jpeg'
 import ntbeachImg from '@src/assets/images/ntbeach.png'
+import teflpointImg from '@src/assets/images/teflpoint-sm.png'
 
 const recentProjects: Project[] = [
-    {
+  {
+    title: {
+      label: 'ColorBrain',
+      description: 'Dye House Optimization Platform',
+      url: 'https://colorbrain.net'
+    },
+    stack: 'React / Express / Python / MongoDB / Nginx',
+    img: colorbrainImg
+  },
+  {
     title: {
       label: 'MenuVN',
       description: 'Food Ordering App and Associated Software',

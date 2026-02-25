@@ -4,7 +4,7 @@ const degrees: CvItem[] = [
     dates: '2012',
     location: 'Bangkok, Thailand and Palma de Mallorca, Spain',
     stack: 'The College of New Jersey Global Programs',
-    note: "Provided New Jersey state teacher certification. This was required to keep my positions at accredited international schools. TCNJ brings their Master’s program to global campuses to serve educators abroad."
+    //note: "Provided New Jersey state teacher certification. This was required to keep my positions at accredited international schools. TCNJ brings their Master’s program to global campuses to serve educators abroad."
   },
   {
     title: 'Bachelor of Arts',

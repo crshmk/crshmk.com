@@ -6,26 +6,23 @@ import otherEvents from './sectionItems/otherEvents'
 
 const cvSections: CvSection[] = [
   {
-    header: 'Recent Projects',
-    items: recentProjects
-  },
-  {
-    header: 'Software Experience - Full Stack Web Development',
+    header: 'Experience',
     items: softwareExperience
-  },
-  {
-    header: 'Previous Career - Administrator and Teacher at International Schools',
-    overview: 'I traveled to over 40 countries and lived in a few. I was able to do this by working as a high school teacher and administrator in international schools. Contracts at international schools are normally for one or two years. Most positions span an academic year between summers.',
-    items: educationExperience
   },
   {
     header: 'Education',
     items: degrees
   },
   {
+    header: 'Recent Projects',
+    items: recentProjects
+  },
+  /*
+  {
     header: 'Other Events',
     items: otherEvents
   }
+    */
 ]
 
 export default cvSections

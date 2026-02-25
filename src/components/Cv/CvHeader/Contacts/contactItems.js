@@ -5,7 +5,7 @@ import LocationIcon from '@icons/Location'
 const contactItems = [
   {
     Icon: LocationIcon,
-    label: 'USA'
+    label: 'Ho Chi Minh City'
   },
   {
     Icon: GlobeIcon,
