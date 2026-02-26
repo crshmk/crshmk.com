@@ -11,6 +11,8 @@
 }
 
 .page.cv p {
+  display: flex;
+  justify-content: space-between;
   font-size: 18px;
 }
 
@@ -108,6 +110,10 @@
 
 .cv-contacts p {
   justify-content: space-between;
+}
+
+.cv-contacts .github {
+  width: 23px;
 }
 
 .cv-music {

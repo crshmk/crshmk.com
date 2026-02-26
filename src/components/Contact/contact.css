@@ -9,3 +9,9 @@
 .contact h1 {
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact h1 {
+    font-size: 21px;
+  }
+}

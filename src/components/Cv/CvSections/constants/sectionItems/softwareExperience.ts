@@ -1,6 +1,6 @@
 const softwareExperience: CvItem[] = [
   {
-    title: 'Software Engineer (Independent)',
+    title: 'Software Engineer (Self-Employed; Joint Ventures)',
     dates: 'Aug 2021 - Present',
     location: 'Nha Trang, Vietnam and Austin, Texas',
     stack: 'React / Express / MySQL / MongoDB / Nginx',
@@ -47,7 +47,6 @@ const softwareExperience: CvItem[] = [
     location: 'Vietnam, Myanmar, Nepal, Saudi Arabia',
     stack: 'Teacher, Administrator, Curriculum Coordinator. Led departments, hired, trained, and evaluated staff, created and maintained curriculum, and represented organizations publicly. Wrote and resourced a full curriculum for a startup school. Created and taught an undergraduate IT elective at the American University of Vietnam. Volunteered in a Himalayan village. Worked as a founding team member of the American International School Vietnam that grew its initial enrollment of 34 students to over 850.',
     bullets: [
-      'Built and maintained websites and web applications for clients'
     ]
   }
 ]

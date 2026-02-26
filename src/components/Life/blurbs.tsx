@@ -7,7 +7,7 @@ const softwareCareer = "In 2014 I transitioned from education to software. I ini
 
 const apple = "In 2018 I returned to the United States and worked as a Software Engineer contractor at Apple. I led frontend development of an internal React application from early concept through full production deployment. I also mentored junior developers new to web development. It was a very successful project; the initial concept became a robust production app with a large user base. The app still runs at a subdomain of apple.com."
 
-const afterApple = "Since then, I’ve continued to design and build modern, full-stack software platforms using JavaScript, React, and Node.js. These nclude SaaS applications, real-time systems, and commercial web applications."
+const afterApple = "Since then, I’ve continued to design and build modern, full-stack software platforms using JavaScript. These include SaaS applications, real-time systems, and commercial web applications."
 
 const now = [
   <span key="1">A series of independent projects from Vietnam followed. I'm finishing up a year-long</span>,

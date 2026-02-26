@@ -1,6 +1,8 @@
 import GithubIcon from '@icons/GithubIcon'
 import GlobeIcon from '@icons/Globe'
 import LocationIcon from '@icons/Location'
+import Envelope from '@icons/Envelope'
+
 
 const contactItems = [
   {
@@ -8,7 +10,7 @@ const contactItems = [
     label: 'Ho Chi Minh City'
   },
   {
-    Icon: GlobeIcon,
+    Icon: Envelope,
     label: 'job@crshmk.com',
     url: 'mailto:job@crshmk.com'
   },

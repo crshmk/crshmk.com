@@ -92,12 +92,6 @@
   align-items: center;
 }
 
-/* shim github icon to avoid a new global strategy */
-.cv-contacts p:nth-of-type(3) span:nth-of-type(2) {
-  position: relative;
-  left: 3px;
-}
-
 @media only screen and (max-width: 1100px) {
   .page.cv {
     margin-left: 27px;
