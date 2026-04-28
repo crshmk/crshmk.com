@@ -7,7 +7,7 @@ import Envelope from '@icons/Envelope'
 const contactItems = [
   {
     Icon: LocationIcon,
-    label: 'Ho Chi Minh City'
+    label: 'St. Augustine, Florida'
   },
   {
     Icon: Envelope,
