@@ -18,7 +18,7 @@ const CvProjectImage = ({ title, img }: Pick<Project, 'title' | 'img'>) =>
 
 
 const CvProjectItem = ({ title, img, stack }: Project) => (
-  <div className="project">
+  <div className="project item">
     <div>
       <div className="cv-item">
         <div className="cv-item-header">

@@ -31,7 +31,7 @@ const Link = ({ label, path }: LinkType) => {
 }
 
 const makeLinks: (links: LinkType[]) => React.JSX.Element[] = map((
-  { label, path }: LinkType) => <Link key={label} label={label} path={path} />
+  { label, path }: LinkType) => <Link key={path} label={label} path={path} />
 )
 
 const links = makeLinks(pages)

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './cv-sections.css'
 
@@ -6,14 +6,27 @@ import cvSections from './constants/cvSections'
 
 import makeCvItem from './CvItem/makeCvItem'
 
-const makeCvSection = (cvSection: CvSection) => {
-  const { header, overview, items } = cvSection
+import { ChevronDown } from 'react-feather'
+
+const CvSection = ({ cvSection }: { cvSection: CvSection }) => {
+  const { header, overview, items, isAccordion } = cvSection
+  const [isAccordionOpen, setIsAccordionOpen] = useState(false)
+
+  const toggleAccordion = () => {
+    setIsAccordionOpen(prev => !prev)
+  }
 
   const sectionItems = items.map(makeCvItem)
 
+  const className = 'cv-section' + (isAccordion ? ' accordion' : '') + (isAccordionOpen ? ' active' : '')
+
   return (
-    <div key={header} className="cv-section">
-      <h2>{header}</h2>
+    <div key={header} className={className}>
+      <h2 onClick={toggleAccordion}>{header} 
+        {cvSection.isAccordion && (
+        <ChevronDown color="black" size={27} className="toggle-accordion-btn" />
+        )}
+      </h2>
       <div className="cv-section-content before after">
         {!!overview && <p className="cv-section-overview">{overview}</p>}
         {sectionItems}
@@ -22,7 +35,9 @@ const makeCvSection = (cvSection: CvSection) => {
   )
 }
 
-const sections = cvSections.map(makeCvSection)
+const sections = cvSections.map(cvSection => 
+  <CvSection key={cvSection.header} cvSection={cvSection} />
+)
 
 const CvSections = () => {
   return (

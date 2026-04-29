@@ -15,11 +15,13 @@ const cvSections: CvSection[] = [
   },
   {
     header: 'Recent Projects',
-    items: recentProjects
+    items: recentProjects,
+    isAccordion: true 
   },
   {
     header: 'Other Events',
-    items: otherEvents
+    items: otherEvents,
+    isAccordion: true 
   }
 ]
 

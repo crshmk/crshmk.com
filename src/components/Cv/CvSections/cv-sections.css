@@ -45,8 +45,58 @@
   margin-bottom: 27px;
 }
 
+.cv-section.accordion .cv-section-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .3s ease .0s;
+}
+
+.cv-section.accordion .item {
+  opacity: 0;
+  transition: opacity .5s ease .15s;
+}
+
+.cv-section.accordion .item:nth-of-type(2) {
+  transition: opacity .5s ease-in-out .33s;
+}
+.cv-section.accordion .item:nth-of-type(3) {
+  transition: opacity .5s ease-in-out .37s;
+}
+.cv-section.accordion .item:nth-of-type(4) {
+  transition: opacity .5s ease-in-out .41s;
+}
+.cv-section.accordion .item:nth-of-type(5) {
+  transition: opacity .5s ease-in-out .44s;
+}
+
+.cv-section.accordion.active .cv-section-content {
+  max-height: 1700px;
+  overflow: visible;
+  transition: max-height 0s ease 0s;
+
+}
+
+.cv-section.accordion.active .item {
+  opacity: 1;
+}
+
 .page.cv .cv-section h2 {
+  display: flex;
+  gap: 17px;
   margin-bottom: 37px;
+}
+
+.page.cv .cv-section.cv-section.accordion h2 {
+  cursor: pointer;
+}
+
+.page.cv .cv-section .toggle-accordion-btn {
+  transform: rotate(0deg);
+  transition: transform .2s ease;
+}
+
+.page.cv .cv-section.cv-section.accordion.active .toggle-accordion-btn {
+  transform: rotate(180deg);
 }
 
 .cv-section-content {
@@ -68,6 +118,23 @@
   width: 100px;
   height: 1px;
   box-shadow: 1px 0px 0px 1px rgb(0,0,0,.1);
+}
+
+.cv-section.cv-section.accordion .cv-section-content.before::before {
+  transition: max-height .4s ease-in-out; 
+  max-height: 0;
+}
+
+.cv-section.cv-section.accordion.active .cv-section-content.before::before {
+  max-height: 1700px;
+}
+.cv-section.cv-section.accordion .cv-section-content.after::after {
+  transition: width .2s ease; 
+  width: 0;
+}
+
+.cv-section.cv-section.accordion.active .cv-section-content.after::after {
+  width: 100px;
 }
 
 .page.cv p.cv-section-overview {
