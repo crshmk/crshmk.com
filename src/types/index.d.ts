@@ -13,6 +13,8 @@ declare module '*.png' {
   export default value
 }
 
+declare module '*.css'
+
 type CurriedFunction2<A, B, R> = {
   (a: A, b: B): R
   (a: A): (b: B) => R

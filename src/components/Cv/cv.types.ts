@@ -6,11 +6,11 @@ type CvSection = {
 }
 
 type CvItem = {
-  title: string
+  title: string | React.ReactNode
   dates: string
-  location: string
+  location: string | React.ReactNode
   stack?: string
-  bullets?: string[]
+  bullets?: (string | React.ReactNode)[]
   note?: string
 }
 

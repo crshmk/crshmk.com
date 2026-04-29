@@ -10,7 +10,7 @@ const CvItem = (props: CvItem) => {
   const { title, dates, location, stack, bullets, note } = props
 
   return (
-  <div key={title} className="cv-item">
+  <div key={dates} className="cv-item">
     <div className="cv-item-header">
       <h3>{title}</h3> 
       {!!dates && <p className="dates">{dates}</p>}

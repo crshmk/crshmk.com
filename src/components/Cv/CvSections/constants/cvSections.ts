@@ -17,12 +17,10 @@ const cvSections: CvSection[] = [
     header: 'Recent Projects',
     items: recentProjects
   },
-  /*
   {
     header: 'Other Events',
     items: otherEvents
   }
-    */
 ]
 
 export default cvSections
