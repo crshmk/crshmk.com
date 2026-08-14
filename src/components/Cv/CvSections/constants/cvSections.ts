@@ -1,17 +1,26 @@
+import certifications from './sectionItems/certifications'
+import degrees from './sectionItems/degrees'
 import educationExperience from './sectionItems/educationExperience'
+import otherEvents from './sectionItems/otherEvents'
 import recentProjects from './sectionItems/recentProjects'
 import softwareExperience from './sectionItems/softwareExperience'
-import degrees from './sectionItems/degrees'
-import otherEvents from './sectionItems/otherEvents'
 
 const cvSections: CvSection[] = [
   {
-    header: 'Experience',
+    header: 'Software Experience',
     items: softwareExperience
+  },
+  {
+    header: 'Education Experience',
+    items: educationExperience
   },
   {
     header: 'Education',
     items: degrees
+  },
+  {
+    header: 'Certifications',
+    items: certifications
   },
   {
     header: 'Recent Projects',

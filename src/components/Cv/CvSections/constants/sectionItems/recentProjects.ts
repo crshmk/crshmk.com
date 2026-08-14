@@ -1,9 +1,19 @@
 import colorbrainImg from '@src/assets/images/colorbrain.png'
 import cvistImg from '@src/assets/images/menu.jpeg'
+import ngonImg from '@src/assets/images/ngon.webp'
 import ntbeachImg from '@src/assets/images/ntbeach.png'
 import teflpointImg from '@src/assets/images/teflpoint-sm.png'
 
 const recentProjects: Project[] = [
+  {
+    title: {
+      label: 'MenYo!',
+      description: 'Digital Restaurant Menu Platform',
+      url: 'https://menyo.net'
+    },
+    stack: 'React / Express / MongoDB / Nginx',
+    img: ngonImg
+  },
   {
     title: {
       label: 'ColorBrain',
@@ -12,15 +22,6 @@ const recentProjects: Project[] = [
     },
     stack: 'React / Express / Python / MongoDB / Nginx',
     img: colorbrainImg
-  },
-  {
-    title: {
-      label: 'MenuVN',
-      description: 'Food Ordering App and Associated Software',
-      url: '/projects/menuvn'
-    },
-    stack: 'React / React Native / Express / MongoDB / Nginx',
-    img: cvistImg
   },
   {
     title: { 

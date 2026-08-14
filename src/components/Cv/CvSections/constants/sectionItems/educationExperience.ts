@@ -46,9 +46,10 @@ const educationExperience: CvItem[] = [
       'Taught advanced History to high school students',
       'Created International Baccalaureate History program',
       'Collaborated to achieve WASC accreditation',
-      'Continually wrote and updated grade 7-12 Social Studies curricula',
+      'Collaborated to write grade 7-12 Social Studies curricula',
       'Coached high school soccer team',
-      'Collaborated with founding team to grow enrollment from 34 students to 850'
+      'Collaborated with founding team to grow enrollment from 34 students to 850',
+      'Collaborated to write school mission and values'
     ]
   }
 ]

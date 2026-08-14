@@ -12,6 +12,7 @@ type CvItem = {
   stack?: string
   bullets?: (string | React.ReactNode)[]
   note?: string
+  isEducationItem?: boolean 
 }
 
 type Project = {

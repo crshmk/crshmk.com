@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { name, title, description } from './header'
+import { name, title, techDescription, edDescription } from './header'
 
 import Contacts from './Contacts'
 
@@ -10,7 +10,8 @@ const CvHeader = () => {
       <div className="cv-title">
         <h1>{name}</h1>
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p>{techDescription}</p>
+        <p>{edDescription}</p>
       </div>
       <Contacts />
     </div>

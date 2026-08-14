@@ -13,6 +13,11 @@ declare module '*.png' {
   export default value
 }
 
+declare module '*.webp' {
+  const value: string
+  export default value
+}
+
 declare module '*.css'
 
 type CurriedFunction2<A, B, R> = {
